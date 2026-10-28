@@ -14,7 +14,7 @@ sys.path.insert(0, str(ROOT))
 
 from termplan.config import get_settings  # noqa: E402
 from termplan.llm import ChatClient, LLMError  # noqa: E402
-from termplan.textutil import parse_json_payload  # noqa: E402
+from termplan.textutil import PayloadError, parse_json_payload  # noqa: E402
 
 
 def main() -> int:
@@ -33,13 +33,21 @@ def main() -> int:
         return 2
     schema = {"type": "object", "properties": {"ok": {"type": "boolean"}}, "required": ["ok"]}
     try:
-        c = client.complete(model=s.model, schema=schema, max_tokens=200, messages=[
+        c = client.complete(model=s.model, schema=schema, max_tokens=2000, messages=[
             {"role": "user", "content": 'Reply with the JSON object {"ok": true} and nothing else.'}])
     except LLMError as exc:
         print(f"Test call failed: {exc}")
         return 3
     print(f"\nTest call: mode={c.mode} finish={c.finish_reason} latency={c.latency_s:.2f}s "
-          f"tokens={c.usage.get('total_tokens')} -> {parse_json_payload(c.text)}")
+          f"tokens={c.usage.get('total_tokens')} reasoning_tokens="
+          f"{(c.usage.get('completion_tokens_details') or {}).get('reasoning_tokens')}")
+    print(f"Reply preview: {c.text[:200]!r}")
+    try:
+        print(f"Parsed JSON: {parse_json_payload(c.text)}")
+    except PayloadError as exc:
+        print(f"Reply was not parseable JSON ({exc}). The app's repair loop handles this, "
+              "but note it for the feedback field.")
+        return 4
     return 0
 
 

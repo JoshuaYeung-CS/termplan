@@ -11,10 +11,12 @@ WORK="$(mktemp -d)"
 trap 'rm -rf "$WORK"' EXIT
 git clone "https://huggingface.co/spaces/${SPACE}" "$WORK/space"
 cd "$WORK/space"
-find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf {} +
+find . -mindepth 1 -maxdepth 1 ! -name .git ! -name .gitattributes -exec rm -rf {} +
 cp -R "$ROOT/termplan" "$ROOT/examples" "$ROOT/Dockerfile" "$ROOT/requirements.txt" "$ROOT/LICENSE" .
 cp "$ROOT/deploy/hf-space/README.md" README.md
 find . -name __pycache__ -type d -prune -exec rm -rf {} +
+# The Space only needs the text samples; binary files would have to go through Git LFS.
+rm -f examples/*.pdf
 git add -A
 git commit -m "Deploy Termplan" || echo "nothing to commit"
 git push

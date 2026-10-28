@@ -185,7 +185,7 @@ def extract_course(
         {"role": "user", "content": _user_prompt(label, source)},
     ]
     schema = extraction_json_schema()
-    max_tokens = 4096
+    max_tokens = 8192  # reasoning tokens count toward the limit
     best: Optional[_Checked] = None
 
     for n in range(1, max_attempts + 1):
@@ -210,7 +210,7 @@ def extract_course(
             errors = [str(exc)]
             if completion.finish_reason == "length":
                 errors.insert(0, "The reply was cut off by the token limit; keep source_quote and hours_rationale short.")
-                max_tokens = min(max_tokens * 2, 16384)
+                max_tokens = min(max_tokens * 2, 32768)
             checked = None
         else:
             checked = check_payload(data, source, term_start, term_end)

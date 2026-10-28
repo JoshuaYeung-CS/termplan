@@ -1,5 +1,5 @@
 TestClient fallback: binding a local port was not allowed
-POST /api/plan/upload -> 200 in 0.17s
+POST /api/plan/upload -> 200 in 0.51s
 mode=nebius model=nvidia/Nemotron-3_5-Lightning base_url_host=stub.local
 courses=3 items=36 verified=36 conflicts=8 model_calls=6
   BIO 2450: 11 items, 3 attempt(s)

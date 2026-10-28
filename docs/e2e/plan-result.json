@@ -2,7 +2,7 @@
   "today": "2026-10-28",
   "model": "nvidia/Nemotron-3_5-Lightning",
   "mode": "nebius",
-  "elapsed_s": 0.16,
+  "elapsed_s": 0.48,
   "model_calls": 6,
   "courses": [
     {
@@ -177,7 +177,7 @@
           "n": 1,
           "mode": "json_schema",
           "finish_reason": "stop",
-          "latency_s": 0.116,
+          "latency_s": 0.337,
           "errors": [
             "The reply is not valid JSON (Expecting property name enclosed in double quotes at line 123, column 1). Check for trailing commas, unquoted keys or comments."
           ]
@@ -186,7 +186,7 @@
           "n": 2,
           "mode": "json_schema",
           "finish_reason": "stop",
-          "latency_s": 0.005,
+          "latency_s": 0.037,
           "errors": [
             "items[6].due_time: Value error, due_time must be 24-hour HH:MM (for example 17:00) or null",
             "items[3] (Lab 3 report (kelp holdfast communities)): source_quote is not a verbatim excerpt of the syllabus: 'Lab three report is due on the Friday of week nine'"
@@ -196,7 +196,7 @@
           "n": 3,
           "mode": "json_schema",
           "finish_reason": "stop",
-          "latency_s": 0.005,
+          "latency_s": 0.038,
           "errors": []
         }
       ],
@@ -376,7 +376,7 @@
           "n": 1,
           "mode": "json_schema",
           "finish_reason": "stop",
-          "latency_s": 0.1,
+          "latency_s": 0.305,
           "errors": []
         }
       ],
@@ -592,7 +592,7 @@
           "n": 1,
           "mode": "json_schema",
           "finish_reason": "stop",
-          "latency_s": 0.1,
+          "latency_s": 0.268,
           "errors": []
         }
       ],

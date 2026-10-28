@@ -174,7 +174,8 @@ async function health() {
     if (h.mode === "nebius") el.innerHTML = `<span class="dot ok"></span>Nemotron on Token Factory: <b>${esc(h.model)}</b>`;
     else if (h.mode === "stub") el.innerHTML = `<span class="dot warn"></span><b>Offline stub</b> (no model calls)`;
     else el.innerHTML = `<span class="dot bad"></span><b>No API key</b> set on the server`;
-    $("#today").value = h.today;
+    const d = new Date();
+    $("#today").value = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
   } catch { $("#status").textContent = "server unreachable"; }
 }
 

@@ -73,7 +73,7 @@ def test_truncated_reply_raises_token_budget():
     app = create_stub_app(scripts=scripts_with("STAT 3120", ["truncated", "clean"]))
     res = run(client_for(app), "stat3120")
     assert "token limit" in res.attempts[0].errors[0]
-    assert app.state.requests[0]["max_tokens"] == 4096 and app.state.requests[1]["max_tokens"] == 8192
+    assert app.state.requests[0]["max_tokens"] == 8192 and app.state.requests[1]["max_tokens"] == 16384
     assert len(res.items) == 14
 
 
