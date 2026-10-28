@@ -1,0 +1,129 @@
+{
+  "match": "HIST 2290",
+  "script": [
+    "think_then_clean"
+  ],
+  "extraction": {
+    "course_code": "HIST 2290",
+    "course_title": "Cities and Empires, 1200-1800",
+    "items": [
+      {
+        "title": "Response paper 1",
+        "kind": "paper",
+        "due_date": "2026-09-22",
+        "due_time": "10:00",
+        "weight_percent": 5,
+        "est_hours": 3,
+        "hours_rationale": "Two pages on one week's reading.",
+        "source_quote": "Response papers are due on Canvasboard by 10:00 am on Tuesday, September 22;"
+      },
+      {
+        "title": "Essay 1 (single city before 1500)",
+        "kind": "paper",
+        "due_date": "2026-10-02",
+        "due_time": "17:00",
+        "weight_percent": 15,
+        "est_hours": 12,
+        "hours_rationale": "4-5 pages with sources.",
+        "source_quote": "Essay 1, on a single city of your choice before 1500, is due Friday, October 2 at 5:00 pm."
+      },
+      {
+        "title": "Response paper 2",
+        "kind": "paper",
+        "due_date": "2026-10-20",
+        "due_time": "10:00",
+        "weight_percent": 5,
+        "est_hours": 3,
+        "hours_rationale": "Two pages on one week's reading.",
+        "source_quote": "Tuesday, October 20;"
+      },
+      {
+        "title": "Unit 4 reading: Port Cities of the Indian Ocean",
+        "kind": "reading",
+        "due_date": "2026-10-27",
+        "due_time": "14:55",
+        "weight_percent": null,
+        "est_hours": 3,
+        "hours_rationale": "About 30 pages of primary sources.",
+        "source_quote": "Reader pp. 112-140, for the October 27 discussion"
+      },
+      {
+        "title": "Essay 2 prospectus",
+        "kind": "paper",
+        "due_date": "2026-10-29",
+        "due_time": "17:00",
+        "weight_percent": 5,
+        "est_hours": 4,
+        "hours_rationale": "One page plus finding five sources.",
+        "source_quote": "by Thursday, October 29 at 5:00 pm"
+      },
+      {
+        "title": "Map quiz",
+        "kind": "quiz",
+        "due_date": "2026-11-03",
+        "due_time": "14:55",
+        "weight_percent": 5,
+        "est_hours": 3,
+        "hours_rationale": "Memorizing place names and routes.",
+        "source_quote": "The map quiz is in class on Tuesday, November 3"
+      },
+      {
+        "title": "Essay 2 (comparing two cities)",
+        "kind": "paper",
+        "due_date": "2026-11-05",
+        "due_time": "17:00",
+        "weight_percent": 25,
+        "est_hours": 18,
+        "hours_rationale": "8-10 pages, the largest written assignment.",
+        "source_quote": "The full essay is due Thursday, November 5 at 5:00 pm."
+      },
+      {
+        "title": "Unit 5 reading: Capitals and Courts",
+        "kind": "reading",
+        "due_date": "2026-11-10",
+        "due_time": "14:55",
+        "weight_percent": null,
+        "est_hours": 4,
+        "hours_rationale": "About 48 pages.",
+        "source_quote": "Reader pp. 141-188, for the November 10 discussion"
+      },
+      {
+        "title": "Response paper 3",
+        "kind": "paper",
+        "due_date": "2026-11-17",
+        "due_time": "10:00",
+        "weight_percent": 5,
+        "est_hours": 3,
+        "hours_rationale": "Two pages on one week's reading.",
+        "source_quote": "Tuesday, November 17."
+      },
+      {
+        "title": "Unit 6 reading: Cities in Crisis",
+        "kind": "reading",
+        "due_date": "2026-12-01",
+        "due_time": "14:55",
+        "weight_percent": null,
+        "est_hours": 3.5,
+        "hours_rationale": "About 40 pages.",
+        "source_quote": "Reader pp. 189-230, for the December 1 discussion"
+      },
+      {
+        "title": "Final take-home exam",
+        "kind": "exam",
+        "due_date": "2026-12-14",
+        "due_time": "12:00",
+        "weight_percent": 25,
+        "est_hours": 14,
+        "hours_rationale": "Two essays over four days.",
+        "source_quote": "Monday, December 14 at 12:00 pm (noon)"
+      }
+    ],
+    "undated": [
+      {
+        "title": "Museum map collection reflection",
+        "source_quote": "announced once the gallery reopens (date to be determined)",
+        "note": "No due date yet."
+      }
+    ]
+  }
+}

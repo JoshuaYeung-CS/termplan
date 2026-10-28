@@ -1,0 +1,110 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [4 0 R 6 0 R] /Count 2 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 5 0 R >>
+endobj
+5 0 obj
+<< /Length 2960 >>
+stream
+BT
+/F1 10 Tf
+13 TL
+54 740 Td
+(LAKESHORE STATE UNIVERSITY) Tj T*
+(Department of Statistical Science) Tj T*
+(STAT 3120: Applied Regression Analysis -- Fall 2026) Tj T*
+(Lectures: Tuesday/Thursday 10:10-11:25 am, Halvorsen Hall 140) Tj T*
+(Labs: Fridays, sections 201-204 \(see the course site\)) Tj T*
+(Course staff: one instructor and three teaching assistants. Office hours are posted on the) Tj T*
+(course site.) Tj T*
+() Tj T*
+(1. COURSE DESCRIPTION) Tj T*
+(Linear models for real data: simple and multiple regression, inference for coefficients,) Tj T*
+(diagnostics, transformations, model selection, logistic regression and an introduction to) Tj T*
+(mixed models. Every topic is taught through a data analysis in R.) Tj T*
+() Tj T*
+(Prerequisite: STAT 2100 or an equivalent introductory statistics course.) Tj T*
+() Tj T*
+(2. TEXTS) Tj T*
+(- Course notes \(free PDF on the course site\), referred to below as "the Notes".) Tj T*
+(- Optional: any recent edition of a standard regression textbook.) Tj T*
+() Tj T*
+(3. GRADING) Tj T*
+(Problem sets \(7, lowest dropped\)    25%) Tj T*
+(Midterm 1                           15%) Tj T*
+(Midterm 2                           20%) Tj T*
+(Final project \(proposal 5%, report 15%\) 20%) Tj T*
+(Final exam                          20%) Tj T*
+() Tj T*
+(4. PROBLEM SETS) Tj T*
+(Problem sets are posted on Monday and are due on Gradebox by 11:59 pm on the Friday listed.) Tj T*
+(Late work loses 10% per day, up to three days.) Tj T*
+() Tj T*
+(Problem Set 1 \(simple regression\) -- due Friday, September 11) Tj T*
+(Problem Set 2 \(inference for slopes\) -- due Friday, September 25) Tj T*
+(Problem Set 3 \(multiple regression\) -- due Friday, October 9) Tj T*
+(Problem Set 4 \(diagnostics and residual plots\) -- due Friday, October 23) Tj T*
+(Problem Set 5 \(transformations and interactions\) -- due Friday, October 30) Tj T*
+(Problem Set 6 \(model selection\) -- due Friday, November 13) Tj T*
+(Problem Set 7 \(logistic regression\) -- due Friday, December 4) Tj T*
+() Tj T*
+(5. EXAMS) Tj T*
+(Midterm 1 is in class on Thursday, October 1 and covers Notes chapters 1-4.) Tj T*
+(Midterm 2 is an evening exam on Thursday, November 5, 7:30-9:00 pm, in Halvorsen Hall 140.) Tj T*
+(It covers Notes chapters 5-8. One handwritten formula sheet is allowed.) Tj T*
+(The final exam is cumulative: Wednesday, December 16, 2:00-4:30 pm \(room to be announced by the) Tj T*
+(registrar\).) Tj T*
+() Tj T*
+(6. FINAL PROJECT) Tj T*
+(You will analyze a public data set of your choice in a team of two.) Tj T*
+(- Project proposal \(one page: question, data source, planned model\) due Monday, November 2 at) Tj T*
+(11:59 pm.) Tj T*
+(- Final project report \(8-10 pages with code appendix\) due Friday, December 11 at 11:59 pm.) Tj T*
+() Tj T*
+(7. READING) Tj T*
+(Read Notes chapters 1-2 before the first lab on September 4.) Tj T*
+(Before Midterm 2, reread Notes chapter 7 on influence and leverage; it is the most-missed topic) Tj T*
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 7 0 R >>
+endobj
+7 0 obj
+<< /Length 280 >>
+stream
+BT
+/F1 10 Tf
+13 TL
+54 740 Td
+(every year.) Tj T*
+() Tj T*
+(8. POLICIES) Tj T*
+(Collaboration on problem sets is encouraged, but every student writes up their own solutions.) Tj T*
+(Accommodations: please send your accommodation letter in the first two weeks of the term.) Tj T*
+ET
+endstream
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000121 00000 n 
+0000000218 00000 n 
+0000000344 00000 n 
+0000003356 00000 n 
+0000003482 00000 n 
+trailer
+<< /Size 8 /Root 1 0 R >>
+startxref
+3813
+%%EOF

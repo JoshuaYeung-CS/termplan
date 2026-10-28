@@ -1,0 +1,3273 @@
+{
+  "today": "2026-10-28",
+  "model": "nvidia/Nemotron-3_5-Lightning",
+  "mode": "nebius",
+  "elapsed_s": 0.16,
+  "model_calls": 6,
+  "courses": [
+    {
+      "label": "bio2450_marine_ecology.txt",
+      "course_code": "BIO 2450",
+      "course_title": "Marine Ecology",
+      "items": [
+        {
+          "title": "Lab 1 report (intertidal transects)",
+          "kind": "lab",
+          "due_date": "2026-09-18",
+          "due_time": "13:25",
+          "weight_percent": 5.0,
+          "est_hours": 4.0,
+          "hours_rationale": "Data analysis plus a short write-up.",
+          "source_quote": "Lab 1 report (intertidal transects) -- Week 3, Friday",
+          "id": "afecd7c913",
+          "course": "BIO 2450",
+          "verified": true,
+          "warnings": []
+        },
+        {
+          "title": "Lab 2 report (plankton tows and counts)",
+          "kind": "lab",
+          "due_date": "2026-10-09",
+          "due_time": "13:25",
+          "weight_percent": 5.0,
+          "est_hours": 4.0,
+          "hours_rationale": "Counting data and a short write-up.",
+          "source_quote": "Lab 2 report (plankton tows and counts) -- Week 6, Friday",
+          "id": "4fb22238c7",
+          "course": "BIO 2450",
+          "verified": true,
+          "warnings": []
+        },
+        {
+          "title": "Read Chapter 7, Kelp Forests",
+          "kind": "reading",
+          "due_date": "2026-10-26",
+          "due_time": null,
+          "weight_percent": null,
+          "est_hours": 2.0,
+          "hours_rationale": "One textbook chapter.",
+          "source_quote": "Chapter 7, Kelp Forests: read before Week 9 Monday.",
+          "id": "68f90ae224",
+          "course": "BIO 2450",
+          "verified": true,
+          "warnings": []
+        },
+        {
+          "title": "Lab 3 report (kelp holdfast communities)",
+          "kind": "lab",
+          "due_date": "2026-10-30",
+          "due_time": "13:25",
+          "weight_percent": 5.0,
+          "est_hours": 4.0,
+          "hours_rationale": "Community data from the holdfast lab.",
+          "source_quote": "Lab 3 report (kelp holdfast communities) -- Week 9, Friday",
+          "id": "98ef69c79e",
+          "course": "BIO 2450",
+          "verified": true,
+          "warnings": []
+        },
+        {
+          "title": "Read Chapter 9, Coral Reefs and Bleaching",
+          "kind": "reading",
+          "due_date": "2026-11-02",
+          "due_time": null,
+          "weight_percent": null,
+          "est_hours": 2.0,
+          "hours_rationale": "One textbook chapter.",
+          "source_quote": "Chapter 9, Coral Reefs and Bleaching: read before Week 10 Monday.",
+          "id": "26edd37b7b",
+          "course": "BIO 2450",
+          "verified": true,
+          "warnings": []
+        },
+        {
+          "title": "Midterm exam",
+          "kind": "exam",
+          "due_date": "2026-11-04",
+          "due_time": "13:25",
+          "weight_percent": 20.0,
+          "est_hours": 12.0,
+          "hours_rationale": "Covers nine weeks including labs.",
+          "source_quote": "The midterm exam is in class on Week 10, Wednesday.",
+          "id": "ce2d92a101",
+          "course": "BIO 2450",
+          "verified": true,
+          "warnings": []
+        },
+        {
+          "title": "Field study draft",
+          "kind": "project",
+          "due_date": "2026-11-06",
+          "due_time": "17:00",
+          "weight_percent": 5.0,
+          "est_hours": 6.0,
+          "hours_rationale": "Methods section and first figures with a team of three.",
+          "source_quote": "Field study draft (methods + preliminary figures): Week 10, Friday, by 5 pm.",
+          "id": "8adbf7b252",
+          "course": "BIO 2450",
+          "verified": true,
+          "warnings": []
+        },
+        {
+          "title": "Lab 4 report (reef fish surveys from video)",
+          "kind": "lab",
+          "due_date": "2026-11-20",
+          "due_time": "13:25",
+          "weight_percent": 5.0,
+          "est_hours": 4.0,
+          "hours_rationale": "Video survey counts.",
+          "source_quote": "Lab 4 report (reef fish surveys from video) -- Week 12, Friday",
+          "id": "43d0ca910a",
+          "course": "BIO 2450",
+          "verified": true,
+          "warnings": []
+        },
+        {
+          "title": "Read Chapter 12, Fisheries and Bycatch",
+          "kind": "reading",
+          "due_date": "2026-11-30",
+          "due_time": null,
+          "weight_percent": null,
+          "est_hours": 2.0,
+          "hours_rationale": "One textbook chapter.",
+          "source_quote": "Chapter 12, Fisheries and Bycatch: read before Week 14 Monday.",
+          "id": "8ec1fcde62",
+          "course": "BIO 2450",
+          "verified": true,
+          "warnings": []
+        },
+        {
+          "title": "Final field study report",
+          "kind": "project",
+          "due_date": "2026-12-04",
+          "due_time": "17:00",
+          "weight_percent": 20.0,
+          "est_hours": 16.0,
+          "hours_rationale": "Full report worth 20%.",
+          "source_quote": "Final field study report: Week 14, Friday, by 5 pm.",
+          "id": "4d1ec93714",
+          "course": "BIO 2450",
+          "verified": true,
+          "warnings": []
+        },
+        {
+          "title": "Final exam (cumulative)",
+          "kind": "exam",
+          "due_date": "2026-12-17",
+          "due_time": "09:00",
+          "weight_percent": 25.0,
+          "est_hours": 15.0,
+          "hours_rationale": "Cumulative final worth 25%.",
+          "source_quote": "Thursday, December 17, 9:00-11:30 am.",
+          "id": "ee524c50d3",
+          "course": "BIO 2450",
+          "verified": true,
+          "warnings": []
+        }
+      ],
+      "undated": [
+        {
+          "title": "Field study poster session",
+          "source_quote": "A field study poster session will be scheduled during Week 15; the exact date is TBA.",
+          "note": "Date to be announced; add it when the course posts it."
+        }
+      ],
+      "attempts": [
+        {
+          "n": 1,
+          "mode": "json_schema",
+          "finish_reason": "stop",
+          "latency_s": 0.116,
+          "errors": [
+            "The reply is not valid JSON (Expecting property name enclosed in double quotes at line 123, column 1). Check for trailing commas, unquoted keys or comments."
+          ]
+        },
+        {
+          "n": 2,
+          "mode": "json_schema",
+          "finish_reason": "stop",
+          "latency_s": 0.005,
+          "errors": [
+            "items[6].due_time: Value error, due_time must be 24-hour HH:MM (for example 17:00) or null",
+            "items[3] (Lab 3 report (kelp holdfast communities)): source_quote is not a verbatim excerpt of the syllabus: 'Lab three report is due on the Friday of week nine'"
+          ]
+        },
+        {
+          "n": 3,
+          "mode": "json_schema",
+          "finish_reason": "stop",
+          "latency_s": 0.005,
+          "errors": []
+        }
+      ],
+      "warnings": [],
+      "error": null,
+      "model": "nvidia/Nemotron-3_5-Lightning"
+    },
+    {
+      "label": "hist2290_cities_and_empires.txt",
+      "course_code": "HIST 2290",
+      "course_title": "Cities and Empires, 1200-1800",
+      "items": [
+        {
+          "title": "Response paper 1",
+          "kind": "paper",
+          "due_date": "2026-09-22",
+          "due_time": "10:00",
+          "weight_percent": 5.0,
+          "est_hours": 3.0,
+          "hours_rationale": "Two pages on one week's reading.",
+          "source_quote": "Response papers are due on Canvasboard by 10:00 am on Tuesday, September 22;",
+          "id": "0a7647ff72",
+          "course": "HIST 2290",
+          "verified": true,
+          "warnings": []
+        },
+        {
+          "title": "Essay 1 (single city before 1500)",
+          "kind": "paper",
+          "due_date": "2026-10-02",
+          "due_time": "17:00",
+          "weight_percent": 15.0,
+          "est_hours": 12.0,
+          "hours_rationale": "4-5 pages with sources.",
+          "source_quote": "Essay 1, on a single city of your choice before 1500, is due Friday, October 2 at 5:00 pm.",
+          "id": "ce8ac0eb6b",
+          "course": "HIST 2290",
+          "verified": true,
+          "warnings": []
+        },
+        {
+          "title": "Response paper 2",
+          "kind": "paper",
+          "due_date": "2026-10-20",
+          "due_time": "10:00",
+          "weight_percent": 5.0,
+          "est_hours": 3.0,
+          "hours_rationale": "Two pages on one week's reading.",
+          "source_quote": "Tuesday, October 20;",
+          "id": "b9ff3d9307",
+          "course": "HIST 2290",
+          "verified": true,
+          "warnings": []
+        },
+        {
+          "title": "Unit 4 reading: Port Cities of the Indian Ocean",
+          "kind": "reading",
+          "due_date": "2026-10-27",
+          "due_time": "14:55",
+          "weight_percent": null,
+          "est_hours": 3.0,
+          "hours_rationale": "About 30 pages of primary sources.",
+          "source_quote": "Reader pp. 112-140, for the October 27 discussion",
+          "id": "0e4b1cb661",
+          "course": "HIST 2290",
+          "verified": true,
+          "warnings": []
+        },
+        {
+          "title": "Essay 2 prospectus",
+          "kind": "paper",
+          "due_date": "2026-10-29",
+          "due_time": "17:00",
+          "weight_percent": 5.0,
+          "est_hours": 4.0,
+          "hours_rationale": "One page plus finding five sources.",
+          "source_quote": "by Thursday, October 29 at 5:00 pm",
+          "id": "b0f45f39c2",
+          "course": "HIST 2290",
+          "verified": true,
+          "warnings": []
+        },
+        {
+          "title": "Map quiz",
+          "kind": "quiz",
+          "due_date": "2026-11-03",
+          "due_time": "14:55",
+          "weight_percent": 5.0,
+          "est_hours": 3.0,
+          "hours_rationale": "Memorizing place names and routes.",
+          "source_quote": "The map quiz is in class on Tuesday, November 3",
+          "id": "a4a8e78a9f",
+          "course": "HIST 2290",
+          "verified": true,
+          "warnings": []
+        },
+        {
+          "title": "Essay 2 (comparing two cities)",
+          "kind": "paper",
+          "due_date": "2026-11-05",
+          "due_time": "17:00",
+          "weight_percent": 25.0,
+          "est_hours": 18.0,
+          "hours_rationale": "8-10 pages, the largest written assignment.",
+          "source_quote": "The full essay is due Thursday, November 5 at 5:00 pm.",
+          "id": "b31f9eab77",
+          "course": "HIST 2290",
+          "verified": true,
+          "warnings": []
+        },
+        {
+          "title": "Unit 5 reading: Capitals and Courts",
+          "kind": "reading",
+          "due_date": "2026-11-10",
+          "due_time": "14:55",
+          "weight_percent": null,
+          "est_hours": 4.0,
+          "hours_rationale": "About 48 pages.",
+          "source_quote": "Reader pp. 141-188, for the November 10 discussion",
+          "id": "1217293401",
+          "course": "HIST 2290",
+          "verified": true,
+          "warnings": []
+        },
+        {
+          "title": "Response paper 3",
+          "kind": "paper",
+          "due_date": "2026-11-17",
+          "due_time": "10:00",
+          "weight_percent": 5.0,
+          "est_hours": 3.0,
+          "hours_rationale": "Two pages on one week's reading.",
+          "source_quote": "Tuesday, November 17.",
+          "id": "385d9244a7",
+          "course": "HIST 2290",
+          "verified": true,
+          "warnings": []
+        },
+        {
+          "title": "Unit 6 reading: Cities in Crisis",
+          "kind": "reading",
+          "due_date": "2026-12-01",
+          "due_time": "14:55",
+          "weight_percent": null,
+          "est_hours": 3.5,
+          "hours_rationale": "About 40 pages.",
+          "source_quote": "Reader pp. 189-230, for the December 1 discussion",
+          "id": "39d77f2993",
+          "course": "HIST 2290",
+          "verified": true,
+          "warnings": []
+        },
+        {
+          "title": "Final take-home exam",
+          "kind": "exam",
+          "due_date": "2026-12-14",
+          "due_time": "12:00",
+          "weight_percent": 25.0,
+          "est_hours": 14.0,
+          "hours_rationale": "Two essays over four days.",
+          "source_quote": "Monday, December 14 at 12:00 pm (noon)",
+          "id": "1d53cc22ee",
+          "course": "HIST 2290",
+          "verified": true,
+          "warnings": []
+        }
+      ],
+      "undated": [
+        {
+          "title": "Museum map collection reflection",
+          "source_quote": "announced once the gallery reopens (date to be determined)",
+          "note": "No due date yet."
+        }
+      ],
+      "attempts": [
+        {
+          "n": 1,
+          "mode": "json_schema",
+          "finish_reason": "stop",
+          "latency_s": 0.1,
+          "errors": []
+        }
+      ],
+      "warnings": [],
+      "error": null,
+      "model": "nvidia/Nemotron-3_5-Lightning"
+    },
+    {
+      "label": "stat3120_applied_regression.pdf",
+      "course_code": "STAT 3120",
+      "course_title": "Applied Regression Analysis",
+      "items": [
+        {
+          "title": "Read Notes chapters 1-2",
+          "kind": "reading",
+          "due_date": "2026-09-04",
+          "due_time": null,
+          "weight_percent": null,
+          "est_hours": 2.0,
+          "hours_rationale": "Two short chapters of course notes.",
+          "source_quote": "Read Notes chapters 1-2 before the first lab on September 4.",
+          "id": "8eb28be7f9",
+          "course": "STAT 3120",
+          "verified": true,
+          "warnings": []
+        },
+        {
+          "title": "Problem Set 1 (simple regression)",
+          "kind": "assignment",
+          "due_date": "2026-09-11",
+          "due_time": "23:59",
+          "weight_percent": 4.17,
+          "est_hours": 5.0,
+          "hours_rationale": "Early sets are shorter R exercises.",
+          "source_quote": "Problem Set 1 (simple regression) -- due Friday, September 11",
+          "id": "81d830b5c2",
+          "course": "STAT 3120",
+          "verified": true,
+          "warnings": []
+        },
+        {
+          "title": "Problem Set 2 (inference for slopes)",
+          "kind": "assignment",
+          "due_date": "2026-09-25",
+          "due_time": "23:59",
+          "weight_percent": 4.17,
+          "est_hours": 5.0,
+          "hours_rationale": "Standard weekly set.",
+          "source_quote": "Problem Set 2 (inference for slopes) -- due Friday, September 25",
+          "id": "45536c342f",
+          "course": "STAT 3120",
+          "verified": true,
+          "warnings": []
+        },
+        {
+          "title": "Midterm 1",
+          "kind": "exam",
+          "due_date": "2026-10-01",
+          "due_time": "10:10",
+          "weight_percent": 15.0,
+          "est_hours": 9.0,
+          "hours_rationale": "Covers four chapters; about two evenings of review plus practice exams.",
+          "source_quote": "Midterm 1 is in class on Thursday, October 1",
+          "id": "342afb77c7",
+          "course": "STAT 3120",
+          "verified": true,
+          "warnings": []
+        },
+        {
+          "title": "Problem Set 3 (multiple regression)",
+          "kind": "assignment",
+          "due_date": "2026-10-09",
+          "due_time": "23:59",
+          "weight_percent": 4.17,
+          "est_hours": 6.0,
+          "hours_rationale": "Multiple regression sets take longer in R.",
+          "source_quote": "Problem Set 3 (multiple regression) -- due Friday, October 9",
+          "id": "bda830ebcf",
+          "course": "STAT 3120",
+          "verified": true,
+          "warnings": []
+        },
+        {
+          "title": "Problem Set 4 (diagnostics and residual plots)",
+          "kind": "assignment",
+          "due_date": "2026-10-23",
+          "due_time": "23:59",
+          "weight_percent": 4.17,
+          "est_hours": 6.0,
+          "hours_rationale": "Diagnostics need many plots.",
+          "source_quote": "Problem Set 4 (diagnostics and residual plots) -- due Friday, October 23",
+          "id": "8fabddee5f",
+          "course": "STAT 3120",
+          "verified": true,
+          "warnings": []
+        },
+        {
+          "title": "Problem Set 5 (transformations and interactions)",
+          "kind": "assignment",
+          "due_date": "2026-10-30",
+          "due_time": "23:59",
+          "weight_percent": 4.17,
+          "est_hours": 6.0,
+          "hours_rationale": "Interaction terms are a common stumbling block.",
+          "source_quote": "Problem Set 5 (transformations and interactions) -- due Friday, October 30",
+          "id": "3e9e532820",
+          "course": "STAT 3120",
+          "verified": true,
+          "warnings": []
+        },
+        {
+          "title": "Final project proposal",
+          "kind": "project",
+          "due_date": "2026-11-02",
+          "due_time": "23:59",
+          "weight_percent": 5.0,
+          "est_hours": 3.0,
+          "hours_rationale": "One page, but finding a usable data set takes time.",
+          "source_quote": "Project proposal (one page: question, data source, planned model) due Monday, November 2 at 11:59 pm.",
+          "id": "562595f4db",
+          "course": "STAT 3120",
+          "verified": true,
+          "warnings": []
+        },
+        {
+          "title": "Midterm 2",
+          "kind": "exam",
+          "due_date": "2026-11-05",
+          "due_time": "19:30",
+          "weight_percent": 20.0,
+          "est_hours": 12.0,
+          "hours_rationale": "Four chapters including influence and leverage; worth 20%.",
+          "source_quote": "Midterm 2 is an evening exam on Thursday, November 5, 7:30-9:00 pm",
+          "id": "abe260bc57",
+          "course": "STAT 3120",
+          "verified": true,
+          "warnings": []
+        },
+        {
+          "title": "Reread Notes chapter 7 (influence and leverage)",
+          "kind": "reading",
+          "due_date": "2026-11-05",
+          "due_time": null,
+          "weight_percent": null,
+          "est_hours": 1.5,
+          "hours_rationale": "One chapter reread before the exam.",
+          "source_quote": "Before Midterm 2, reread Notes chapter 7 on influence and leverage",
+          "id": "b23a087037",
+          "course": "STAT 3120",
+          "verified": true,
+          "warnings": []
+        },
+        {
+          "title": "Problem Set 6 (model selection)",
+          "kind": "assignment",
+          "due_date": "2026-11-13",
+          "due_time": "23:59",
+          "weight_percent": 4.17,
+          "est_hours": 6.0,
+          "hours_rationale": "Model selection requires comparing several fits.",
+          "source_quote": "Problem Set 6 (model selection) -- due Friday, November 13",
+          "id": "f992b632b3",
+          "course": "STAT 3120",
+          "verified": true,
+          "warnings": []
+        },
+        {
+          "title": "Problem Set 7 (logistic regression)",
+          "kind": "assignment",
+          "due_date": "2026-12-04",
+          "due_time": "23:59",
+          "weight_percent": 4.17,
+          "est_hours": 7.0,
+          "hours_rationale": "New model family.",
+          "source_quote": "Problem Set 7 (logistic regression) -- due Friday, December 4",
+          "id": "3a7172506a",
+          "course": "STAT 3120",
+          "verified": true,
+          "warnings": []
+        },
+        {
+          "title": "Final project report",
+          "kind": "project",
+          "due_date": "2026-12-11",
+          "due_time": "23:59",
+          "weight_percent": 15.0,
+          "est_hours": 20.0,
+          "hours_rationale": "8-10 pages of analysis and code with a partner.",
+          "source_quote": "Final project report (8-10 pages with code appendix) due Friday, December 11 at 11:59 pm.",
+          "id": "f2630d8968",
+          "course": "STAT 3120",
+          "verified": true,
+          "warnings": []
+        },
+        {
+          "title": "Final exam (cumulative)",
+          "kind": "exam",
+          "due_date": "2026-12-16",
+          "due_time": "14:00",
+          "weight_percent": 20.0,
+          "est_hours": 15.0,
+          "hours_rationale": "Cumulative exam worth 20%.",
+          "source_quote": "Wednesday, December 16, 2:00-4:30 pm",
+          "id": "1a859f842f",
+          "course": "STAT 3120",
+          "verified": true,
+          "warnings": []
+        }
+      ],
+      "undated": [],
+      "attempts": [
+        {
+          "n": 1,
+          "mode": "json_schema",
+          "finish_reason": "stop",
+          "latency_s": 0.1,
+          "errors": []
+        }
+      ],
+      "warnings": [],
+      "error": null,
+      "model": "nvidia/Nemotron-3_5-Lightning"
+    }
+  ],
+  "items": [
+    {
+      "title": "Read Notes chapters 1-2",
+      "kind": "reading",
+      "due_date": "2026-09-04",
+      "due_time": null,
+      "weight_percent": null,
+      "est_hours": 2.0,
+      "hours_rationale": "Two short chapters of course notes.",
+      "source_quote": "Read Notes chapters 1-2 before the first lab on September 4.",
+      "id": "8eb28be7f9",
+      "course": "STAT 3120",
+      "verified": true,
+      "warnings": []
+    },
+    {
+      "title": "Problem Set 1 (simple regression)",
+      "kind": "assignment",
+      "due_date": "2026-09-11",
+      "due_time": "23:59",
+      "weight_percent": 4.17,
+      "est_hours": 5.0,
+      "hours_rationale": "Early sets are shorter R exercises.",
+      "source_quote": "Problem Set 1 (simple regression) -- due Friday, September 11",
+      "id": "81d830b5c2",
+      "course": "STAT 3120",
+      "verified": true,
+      "warnings": []
+    },
+    {
+      "title": "Lab 1 report (intertidal transects)",
+      "kind": "lab",
+      "due_date": "2026-09-18",
+      "due_time": "13:25",
+      "weight_percent": 5.0,
+      "est_hours": 4.0,
+      "hours_rationale": "Data analysis plus a short write-up.",
+      "source_quote": "Lab 1 report (intertidal transects) -- Week 3, Friday",
+      "id": "afecd7c913",
+      "course": "BIO 2450",
+      "verified": true,
+      "warnings": []
+    },
+    {
+      "title": "Response paper 1",
+      "kind": "paper",
+      "due_date": "2026-09-22",
+      "due_time": "10:00",
+      "weight_percent": 5.0,
+      "est_hours": 3.0,
+      "hours_rationale": "Two pages on one week's reading.",
+      "source_quote": "Response papers are due on Canvasboard by 10:00 am on Tuesday, September 22;",
+      "id": "0a7647ff72",
+      "course": "HIST 2290",
+      "verified": true,
+      "warnings": []
+    },
+    {
+      "title": "Problem Set 2 (inference for slopes)",
+      "kind": "assignment",
+      "due_date": "2026-09-25",
+      "due_time": "23:59",
+      "weight_percent": 4.17,
+      "est_hours": 5.0,
+      "hours_rationale": "Standard weekly set.",
+      "source_quote": "Problem Set 2 (inference for slopes) -- due Friday, September 25",
+      "id": "45536c342f",
+      "course": "STAT 3120",
+      "verified": true,
+      "warnings": []
+    },
+    {
+      "title": "Midterm 1",
+      "kind": "exam",
+      "due_date": "2026-10-01",
+      "due_time": "10:10",
+      "weight_percent": 15.0,
+      "est_hours": 9.0,
+      "hours_rationale": "Covers four chapters; about two evenings of review plus practice exams.",
+      "source_quote": "Midterm 1 is in class on Thursday, October 1",
+      "id": "342afb77c7",
+      "course": "STAT 3120",
+      "verified": true,
+      "warnings": []
+    },
+    {
+      "title": "Essay 1 (single city before 1500)",
+      "kind": "paper",
+      "due_date": "2026-10-02",
+      "due_time": "17:00",
+      "weight_percent": 15.0,
+      "est_hours": 12.0,
+      "hours_rationale": "4-5 pages with sources.",
+      "source_quote": "Essay 1, on a single city of your choice before 1500, is due Friday, October 2 at 5:00 pm.",
+      "id": "ce8ac0eb6b",
+      "course": "HIST 2290",
+      "verified": true,
+      "warnings": []
+    },
+    {
+      "title": "Lab 2 report (plankton tows and counts)",
+      "kind": "lab",
+      "due_date": "2026-10-09",
+      "due_time": "13:25",
+      "weight_percent": 5.0,
+      "est_hours": 4.0,
+      "hours_rationale": "Counting data and a short write-up.",
+      "source_quote": "Lab 2 report (plankton tows and counts) -- Week 6, Friday",
+      "id": "4fb22238c7",
+      "course": "BIO 2450",
+      "verified": true,
+      "warnings": []
+    },
+    {
+      "title": "Problem Set 3 (multiple regression)",
+      "kind": "assignment",
+      "due_date": "2026-10-09",
+      "due_time": "23:59",
+      "weight_percent": 4.17,
+      "est_hours": 6.0,
+      "hours_rationale": "Multiple regression sets take longer in R.",
+      "source_quote": "Problem Set 3 (multiple regression) -- due Friday, October 9",
+      "id": "bda830ebcf",
+      "course": "STAT 3120",
+      "verified": true,
+      "warnings": []
+    },
+    {
+      "title": "Response paper 2",
+      "kind": "paper",
+      "due_date": "2026-10-20",
+      "due_time": "10:00",
+      "weight_percent": 5.0,
+      "est_hours": 3.0,
+      "hours_rationale": "Two pages on one week's reading.",
+      "source_quote": "Tuesday, October 20;",
+      "id": "b9ff3d9307",
+      "course": "HIST 2290",
+      "verified": true,
+      "warnings": []
+    },
+    {
+      "title": "Problem Set 4 (diagnostics and residual plots)",
+      "kind": "assignment",
+      "due_date": "2026-10-23",
+      "due_time": "23:59",
+      "weight_percent": 4.17,
+      "est_hours": 6.0,
+      "hours_rationale": "Diagnostics need many plots.",
+      "source_quote": "Problem Set 4 (diagnostics and residual plots) -- due Friday, October 23",
+      "id": "8fabddee5f",
+      "course": "STAT 3120",
+      "verified": true,
+      "warnings": []
+    },
+    {
+      "title": "Read Chapter 7, Kelp Forests",
+      "kind": "reading",
+      "due_date": "2026-10-26",
+      "due_time": null,
+      "weight_percent": null,
+      "est_hours": 2.0,
+      "hours_rationale": "One textbook chapter.",
+      "source_quote": "Chapter 7, Kelp Forests: read before Week 9 Monday.",
+      "id": "68f90ae224",
+      "course": "BIO 2450",
+      "verified": true,
+      "warnings": []
+    },
+    {
+      "title": "Unit 4 reading: Port Cities of the Indian Ocean",
+      "kind": "reading",
+      "due_date": "2026-10-27",
+      "due_time": "14:55",
+      "weight_percent": null,
+      "est_hours": 3.0,
+      "hours_rationale": "About 30 pages of primary sources.",
+      "source_quote": "Reader pp. 112-140, for the October 27 discussion",
+      "id": "0e4b1cb661",
+      "course": "HIST 2290",
+      "verified": true,
+      "warnings": []
+    },
+    {
+      "title": "Essay 2 prospectus",
+      "kind": "paper",
+      "due_date": "2026-10-29",
+      "due_time": "17:00",
+      "weight_percent": 5.0,
+      "est_hours": 4.0,
+      "hours_rationale": "One page plus finding five sources.",
+      "source_quote": "by Thursday, October 29 at 5:00 pm",
+      "id": "b0f45f39c2",
+      "course": "HIST 2290",
+      "verified": true,
+      "warnings": []
+    },
+    {
+      "title": "Lab 3 report (kelp holdfast communities)",
+      "kind": "lab",
+      "due_date": "2026-10-30",
+      "due_time": "13:25",
+      "weight_percent": 5.0,
+      "est_hours": 4.0,
+      "hours_rationale": "Community data from the holdfast lab.",
+      "source_quote": "Lab 3 report (kelp holdfast communities) -- Week 9, Friday",
+      "id": "98ef69c79e",
+      "course": "BIO 2450",
+      "verified": true,
+      "warnings": []
+    },
+    {
+      "title": "Problem Set 5 (transformations and interactions)",
+      "kind": "assignment",
+      "due_date": "2026-10-30",
+      "due_time": "23:59",
+      "weight_percent": 4.17,
+      "est_hours": 6.0,
+      "hours_rationale": "Interaction terms are a common stumbling block.",
+      "source_quote": "Problem Set 5 (transformations and interactions) -- due Friday, October 30",
+      "id": "3e9e532820",
+      "course": "STAT 3120",
+      "verified": true,
+      "warnings": []
+    },
+    {
+      "title": "Final project proposal",
+      "kind": "project",
+      "due_date": "2026-11-02",
+      "due_time": "23:59",
+      "weight_percent": 5.0,
+      "est_hours": 3.0,
+      "hours_rationale": "One page, but finding a usable data set takes time.",
+      "source_quote": "Project proposal (one page: question, data source, planned model) due Monday, November 2 at 11:59 pm.",
+      "id": "562595f4db",
+      "course": "STAT 3120",
+      "verified": true,
+      "warnings": []
+    },
+    {
+      "title": "Read Chapter 9, Coral Reefs and Bleaching",
+      "kind": "reading",
+      "due_date": "2026-11-02",
+      "due_time": null,
+      "weight_percent": null,
+      "est_hours": 2.0,
+      "hours_rationale": "One textbook chapter.",
+      "source_quote": "Chapter 9, Coral Reefs and Bleaching: read before Week 10 Monday.",
+      "id": "26edd37b7b",
+      "course": "BIO 2450",
+      "verified": true,
+      "warnings": []
+    },
+    {
+      "title": "Map quiz",
+      "kind": "quiz",
+      "due_date": "2026-11-03",
+      "due_time": "14:55",
+      "weight_percent": 5.0,
+      "est_hours": 3.0,
+      "hours_rationale": "Memorizing place names and routes.",
+      "source_quote": "The map quiz is in class on Tuesday, November 3",
+      "id": "a4a8e78a9f",
+      "course": "HIST 2290",
+      "verified": true,
+      "warnings": []
+    },
+    {
+      "title": "Midterm exam",
+      "kind": "exam",
+      "due_date": "2026-11-04",
+      "due_time": "13:25",
+      "weight_percent": 20.0,
+      "est_hours": 12.0,
+      "hours_rationale": "Covers nine weeks including labs.",
+      "source_quote": "The midterm exam is in class on Week 10, Wednesday.",
+      "id": "ce2d92a101",
+      "course": "BIO 2450",
+      "verified": true,
+      "warnings": []
+    },
+    {
+      "title": "Essay 2 (comparing two cities)",
+      "kind": "paper",
+      "due_date": "2026-11-05",
+      "due_time": "17:00",
+      "weight_percent": 25.0,
+      "est_hours": 18.0,
+      "hours_rationale": "8-10 pages, the largest written assignment.",
+      "source_quote": "The full essay is due Thursday, November 5 at 5:00 pm.",
+      "id": "b31f9eab77",
+      "course": "HIST 2290",
+      "verified": true,
+      "warnings": []
+    },
+    {
+      "title": "Midterm 2",
+      "kind": "exam",
+      "due_date": "2026-11-05",
+      "due_time": "19:30",
+      "weight_percent": 20.0,
+      "est_hours": 12.0,
+      "hours_rationale": "Four chapters including influence and leverage; worth 20%.",
+      "source_quote": "Midterm 2 is an evening exam on Thursday, November 5, 7:30-9:00 pm",
+      "id": "abe260bc57",
+      "course": "STAT 3120",
+      "verified": true,
+      "warnings": []
+    },
+    {
+      "title": "Reread Notes chapter 7 (influence and leverage)",
+      "kind": "reading",
+      "due_date": "2026-11-05",
+      "due_time": null,
+      "weight_percent": null,
+      "est_hours": 1.5,
+      "hours_rationale": "One chapter reread before the exam.",
+      "source_quote": "Before Midterm 2, reread Notes chapter 7 on influence and leverage",
+      "id": "b23a087037",
+      "course": "STAT 3120",
+      "verified": true,
+      "warnings": []
+    },
+    {
+      "title": "Field study draft",
+      "kind": "project",
+      "due_date": "2026-11-06",
+      "due_time": "17:00",
+      "weight_percent": 5.0,
+      "est_hours": 6.0,
+      "hours_rationale": "Methods section and first figures with a team of three.",
+      "source_quote": "Field study draft (methods + preliminary figures): Week 10, Friday, by 5 pm.",
+      "id": "8adbf7b252",
+      "course": "BIO 2450",
+      "verified": true,
+      "warnings": []
+    },
+    {
+      "title": "Unit 5 reading: Capitals and Courts",
+      "kind": "reading",
+      "due_date": "2026-11-10",
+      "due_time": "14:55",
+      "weight_percent": null,
+      "est_hours": 4.0,
+      "hours_rationale": "About 48 pages.",
+      "source_quote": "Reader pp. 141-188, for the November 10 discussion",
+      "id": "1217293401",
+      "course": "HIST 2290",
+      "verified": true,
+      "warnings": []
+    },
+    {
+      "title": "Problem Set 6 (model selection)",
+      "kind": "assignment",
+      "due_date": "2026-11-13",
+      "due_time": "23:59",
+      "weight_percent": 4.17,
+      "est_hours": 6.0,
+      "hours_rationale": "Model selection requires comparing several fits.",
+      "source_quote": "Problem Set 6 (model selection) -- due Friday, November 13",
+      "id": "f992b632b3",
+      "course": "STAT 3120",
+      "verified": true,
+      "warnings": []
+    },
+    {
+      "title": "Response paper 3",
+      "kind": "paper",
+      "due_date": "2026-11-17",
+      "due_time": "10:00",
+      "weight_percent": 5.0,
+      "est_hours": 3.0,
+      "hours_rationale": "Two pages on one week's reading.",
+      "source_quote": "Tuesday, November 17.",
+      "id": "385d9244a7",
+      "course": "HIST 2290",
+      "verified": true,
+      "warnings": []
+    },
+    {
+      "title": "Lab 4 report (reef fish surveys from video)",
+      "kind": "lab",
+      "due_date": "2026-11-20",
+      "due_time": "13:25",
+      "weight_percent": 5.0,
+      "est_hours": 4.0,
+      "hours_rationale": "Video survey counts.",
+      "source_quote": "Lab 4 report (reef fish surveys from video) -- Week 12, Friday",
+      "id": "43d0ca910a",
+      "course": "BIO 2450",
+      "verified": true,
+      "warnings": []
+    },
+    {
+      "title": "Read Chapter 12, Fisheries and Bycatch",
+      "kind": "reading",
+      "due_date": "2026-11-30",
+      "due_time": null,
+      "weight_percent": null,
+      "est_hours": 2.0,
+      "hours_rationale": "One textbook chapter.",
+      "source_quote": "Chapter 12, Fisheries and Bycatch: read before Week 14 Monday.",
+      "id": "8ec1fcde62",
+      "course": "BIO 2450",
+      "verified": true,
+      "warnings": []
+    },
+    {
+      "title": "Unit 6 reading: Cities in Crisis",
+      "kind": "reading",
+      "due_date": "2026-12-01",
+      "due_time": "14:55",
+      "weight_percent": null,
+      "est_hours": 3.5,
+      "hours_rationale": "About 40 pages.",
+      "source_quote": "Reader pp. 189-230, for the December 1 discussion",
+      "id": "39d77f2993",
+      "course": "HIST 2290",
+      "verified": true,
+      "warnings": []
+    },
+    {
+      "title": "Final field study report",
+      "kind": "project",
+      "due_date": "2026-12-04",
+      "due_time": "17:00",
+      "weight_percent": 20.0,
+      "est_hours": 16.0,
+      "hours_rationale": "Full report worth 20%.",
+      "source_quote": "Final field study report: Week 14, Friday, by 5 pm.",
+      "id": "4d1ec93714",
+      "course": "BIO 2450",
+      "verified": true,
+      "warnings": []
+    },
+    {
+      "title": "Problem Set 7 (logistic regression)",
+      "kind": "assignment",
+      "due_date": "2026-12-04",
+      "due_time": "23:59",
+      "weight_percent": 4.17,
+      "est_hours": 7.0,
+      "hours_rationale": "New model family.",
+      "source_quote": "Problem Set 7 (logistic regression) -- due Friday, December 4",
+      "id": "3a7172506a",
+      "course": "STAT 3120",
+      "verified": true,
+      "warnings": []
+    },
+    {
+      "title": "Final project report",
+      "kind": "project",
+      "due_date": "2026-12-11",
+      "due_time": "23:59",
+      "weight_percent": 15.0,
+      "est_hours": 20.0,
+      "hours_rationale": "8-10 pages of analysis and code with a partner.",
+      "source_quote": "Final project report (8-10 pages with code appendix) due Friday, December 11 at 11:59 pm.",
+      "id": "f2630d8968",
+      "course": "STAT 3120",
+      "verified": true,
+      "warnings": []
+    },
+    {
+      "title": "Final take-home exam",
+      "kind": "exam",
+      "due_date": "2026-12-14",
+      "due_time": "12:00",
+      "weight_percent": 25.0,
+      "est_hours": 14.0,
+      "hours_rationale": "Two essays over four days.",
+      "source_quote": "Monday, December 14 at 12:00 pm (noon)",
+      "id": "1d53cc22ee",
+      "course": "HIST 2290",
+      "verified": true,
+      "warnings": []
+    },
+    {
+      "title": "Final exam (cumulative)",
+      "kind": "exam",
+      "due_date": "2026-12-16",
+      "due_time": "14:00",
+      "weight_percent": 20.0,
+      "est_hours": 15.0,
+      "hours_rationale": "Cumulative exam worth 20%.",
+      "source_quote": "Wednesday, December 16, 2:00-4:30 pm",
+      "id": "1a859f842f",
+      "course": "STAT 3120",
+      "verified": true,
+      "warnings": []
+    },
+    {
+      "title": "Final exam (cumulative)",
+      "kind": "exam",
+      "due_date": "2026-12-17",
+      "due_time": "09:00",
+      "weight_percent": 25.0,
+      "est_hours": 15.0,
+      "hours_rationale": "Cumulative final worth 25%.",
+      "source_quote": "Thursday, December 17, 9:00-11:30 am.",
+      "id": "ee524c50d3",
+      "course": "BIO 2450",
+      "verified": true,
+      "warnings": []
+    }
+  ],
+  "conflicts": [
+    {
+      "kind": "deadline_pileup",
+      "severity": "medium",
+      "start": "2026-10-29",
+      "end": "2026-10-30",
+      "item_ids": [
+        "b0f45f39c2",
+        "98ef69c79e",
+        "3e9e532820"
+      ],
+      "message": "3 graded deadlines within 72 hours (Oct 29 to Oct 30)"
+    },
+    {
+      "kind": "crunch_week",
+      "severity": "high",
+      "start": "2026-11-02",
+      "end": "2026-11-08",
+      "item_ids": [
+        "562595f4db",
+        "26edd37b7b",
+        "a4a8e78a9f",
+        "ce2d92a101",
+        "b31f9eab77",
+        "abe260bc57",
+        "b23a087037",
+        "8adbf7b252"
+      ],
+      "message": "Crunch week of Nov 02: 57.5 h of work due vs. a 25 h weekly budget; 3 major items (exams or 10%+ of a grade); 6 graded deadlines across 3 courses"
+    },
+    {
+      "kind": "deadline_pileup",
+      "severity": "medium",
+      "start": "2026-11-02",
+      "end": "2026-11-04",
+      "item_ids": [
+        "562595f4db",
+        "a4a8e78a9f",
+        "ce2d92a101"
+      ],
+      "message": "3 graded deadlines within 72 hours (Nov 02 to Nov 04)"
+    },
+    {
+      "kind": "back_to_back_exams",
+      "severity": "medium",
+      "start": "2026-11-04",
+      "end": "2026-11-05",
+      "item_ids": [
+        "ce2d92a101",
+        "abe260bc57"
+      ],
+      "message": "Back-to-back exams: BIO 2450 Midterm exam (Wed Nov 04) then STAT 3120 Midterm 2 (Thu Nov 05)"
+    },
+    {
+      "kind": "deadline_pileup",
+      "severity": "medium",
+      "start": "2026-11-05",
+      "end": "2026-11-06",
+      "item_ids": [
+        "b31f9eab77",
+        "abe260bc57",
+        "8adbf7b252"
+      ],
+      "message": "3 graded deadlines within 72 hours (Nov 05 to Nov 06)"
+    },
+    {
+      "kind": "crunch_week",
+      "severity": "high",
+      "start": "2026-11-30",
+      "end": "2026-12-06",
+      "item_ids": [
+        "8ec1fcde62",
+        "39d77f2993",
+        "4d1ec93714",
+        "3a7172506a"
+      ],
+      "message": "Crunch week of Nov 30: 28.5 h of work due vs. a 25 h weekly budget"
+    },
+    {
+      "kind": "crunch_week",
+      "severity": "high",
+      "start": "2026-12-14",
+      "end": "2026-12-20",
+      "item_ids": [
+        "1d53cc22ee",
+        "1a859f842f",
+        "ee524c50d3"
+      ],
+      "message": "Crunch week of Dec 14: 44 h of work due vs. a 25 h weekly budget; 3 major items (exams or 10%+ of a grade)"
+    },
+    {
+      "kind": "back_to_back_exams",
+      "severity": "medium",
+      "start": "2026-12-16",
+      "end": "2026-12-17",
+      "item_ids": [
+        "1a859f842f",
+        "ee524c50d3"
+      ],
+      "message": "Back-to-back exams: STAT 3120 Final exam (cumulative) (Wed Dec 16) then BIO 2450 Final exam (cumulative) (Thu Dec 17)"
+    }
+  ],
+  "plan": {
+    "today": "2026-10-28",
+    "weekly_hours": 25.0,
+    "days": [
+      {
+        "day": "2026-10-28",
+        "blocks": [
+          {
+            "item_id": "b0f45f39c2",
+            "course": "HIST 2290",
+            "title": "Essay 2 prospectus",
+            "hours": 3.5
+          }
+        ]
+      },
+      {
+        "day": "2026-10-29",
+        "blocks": [
+          {
+            "item_id": "3e9e532820",
+            "course": "STAT 3120",
+            "title": "Problem Set 5 (transformations and interactions)",
+            "hours": 3.5
+          }
+        ]
+      },
+      {
+        "day": "2026-10-30",
+        "blocks": [
+          {
+            "item_id": "562595f4db",
+            "course": "STAT 3120",
+            "title": "Final project proposal",
+            "hours": 1.0
+          },
+          {
+            "item_id": "26edd37b7b",
+            "course": "BIO 2450",
+            "title": "Read Chapter 9, Coral Reefs and Bleaching",
+            "hours": 0.75
+          },
+          {
+            "item_id": "a4a8e78a9f",
+            "course": "HIST 2290",
+            "title": "Map quiz",
+            "hours": 0.75
+          },
+          {
+            "item_id": "ce2d92a101",
+            "course": "BIO 2450",
+            "title": "Midterm exam",
+            "hours": 1.0
+          }
+        ]
+      },
+      {
+        "day": "2026-10-31",
+        "blocks": [
+          {
+            "item_id": "562595f4db",
+            "course": "STAT 3120",
+            "title": "Final project proposal",
+            "hours": 1.0
+          },
+          {
+            "item_id": "26edd37b7b",
+            "course": "BIO 2450",
+            "title": "Read Chapter 9, Coral Reefs and Bleaching",
+            "hours": 0.75
+          },
+          {
+            "item_id": "a4a8e78a9f",
+            "course": "HIST 2290",
+            "title": "Map quiz",
+            "hours": 0.75
+          },
+          {
+            "item_id": "ce2d92a101",
+            "course": "BIO 2450",
+            "title": "Midterm exam",
+            "hours": 1.0
+          }
+        ]
+      },
+      {
+        "day": "2026-11-01",
+        "blocks": [
+          {
+            "item_id": "562595f4db",
+            "course": "STAT 3120",
+            "title": "Final project proposal",
+            "hours": 1.0
+          },
+          {
+            "item_id": "26edd37b7b",
+            "course": "BIO 2450",
+            "title": "Read Chapter 9, Coral Reefs and Bleaching",
+            "hours": 0.5
+          },
+          {
+            "item_id": "a4a8e78a9f",
+            "course": "HIST 2290",
+            "title": "Map quiz",
+            "hours": 0.75
+          },
+          {
+            "item_id": "ce2d92a101",
+            "course": "BIO 2450",
+            "title": "Midterm exam",
+            "hours": 1.25
+          }
+        ]
+      },
+      {
+        "day": "2026-11-02",
+        "blocks": [
+          {
+            "item_id": "a4a8e78a9f",
+            "course": "HIST 2290",
+            "title": "Map quiz",
+            "hours": 0.75
+          },
+          {
+            "item_id": "ce2d92a101",
+            "course": "BIO 2450",
+            "title": "Midterm exam",
+            "hours": 2.75
+          }
+        ]
+      },
+      {
+        "day": "2026-11-03",
+        "blocks": [
+          {
+            "item_id": "ce2d92a101",
+            "course": "BIO 2450",
+            "title": "Midterm exam",
+            "hours": 3.5
+          }
+        ]
+      },
+      {
+        "day": "2026-11-04",
+        "blocks": [
+          {
+            "item_id": "b31f9eab77",
+            "course": "HIST 2290",
+            "title": "Essay 2 (comparing two cities)",
+            "hours": 3.5
+          }
+        ]
+      },
+      {
+        "day": "2026-11-05",
+        "blocks": [
+          {
+            "item_id": "8adbf7b252",
+            "course": "BIO 2450",
+            "title": "Field study draft",
+            "hours": 3.5
+          }
+        ]
+      },
+      {
+        "day": "2026-11-06",
+        "blocks": [
+          {
+            "item_id": "385d9244a7",
+            "course": "HIST 2290",
+            "title": "Response paper 3",
+            "hours": 0.5
+          },
+          {
+            "item_id": "4d1ec93714",
+            "course": "BIO 2450",
+            "title": "Final field study report",
+            "hours": 0.75
+          }
+        ]
+      },
+      {
+        "day": "2026-11-07",
+        "blocks": [
+          {
+            "item_id": "1217293401",
+            "course": "HIST 2290",
+            "title": "Unit 5 reading: Capitals and Courts",
+            "hours": 1.5
+          },
+          {
+            "item_id": "f992b632b3",
+            "course": "STAT 3120",
+            "title": "Problem Set 6 (model selection)",
+            "hours": 1.0
+          },
+          {
+            "item_id": "385d9244a7",
+            "course": "HIST 2290",
+            "title": "Response paper 3",
+            "hours": 0.25
+          },
+          {
+            "item_id": "4d1ec93714",
+            "course": "BIO 2450",
+            "title": "Final field study report",
+            "hours": 0.75
+          }
+        ]
+      },
+      {
+        "day": "2026-11-08",
+        "blocks": [
+          {
+            "item_id": "1217293401",
+            "course": "HIST 2290",
+            "title": "Unit 5 reading: Capitals and Courts",
+            "hours": 1.25
+          },
+          {
+            "item_id": "f992b632b3",
+            "course": "STAT 3120",
+            "title": "Problem Set 6 (model selection)",
+            "hours": 1.0
+          },
+          {
+            "item_id": "385d9244a7",
+            "course": "HIST 2290",
+            "title": "Response paper 3",
+            "hours": 0.25
+          },
+          {
+            "item_id": "4d1ec93714",
+            "course": "BIO 2450",
+            "title": "Final field study report",
+            "hours": 0.75
+          }
+        ]
+      },
+      {
+        "day": "2026-11-09",
+        "blocks": [
+          {
+            "item_id": "1217293401",
+            "course": "HIST 2290",
+            "title": "Unit 5 reading: Capitals and Courts",
+            "hours": 1.25
+          },
+          {
+            "item_id": "f992b632b3",
+            "course": "STAT 3120",
+            "title": "Problem Set 6 (model selection)",
+            "hours": 1.0
+          },
+          {
+            "item_id": "385d9244a7",
+            "course": "HIST 2290",
+            "title": "Response paper 3",
+            "hours": 0.25
+          },
+          {
+            "item_id": "4d1ec93714",
+            "course": "BIO 2450",
+            "title": "Final field study report",
+            "hours": 0.75
+          }
+        ]
+      },
+      {
+        "day": "2026-11-10",
+        "blocks": [
+          {
+            "item_id": "f992b632b3",
+            "course": "STAT 3120",
+            "title": "Problem Set 6 (model selection)",
+            "hours": 1.0
+          },
+          {
+            "item_id": "385d9244a7",
+            "course": "HIST 2290",
+            "title": "Response paper 3",
+            "hours": 0.25
+          },
+          {
+            "item_id": "4d1ec93714",
+            "course": "BIO 2450",
+            "title": "Final field study report",
+            "hours": 0.75
+          }
+        ]
+      },
+      {
+        "day": "2026-11-11",
+        "blocks": [
+          {
+            "item_id": "f992b632b3",
+            "course": "STAT 3120",
+            "title": "Problem Set 6 (model selection)",
+            "hours": 1.0
+          },
+          {
+            "item_id": "385d9244a7",
+            "course": "HIST 2290",
+            "title": "Response paper 3",
+            "hours": 0.25
+          },
+          {
+            "item_id": "4d1ec93714",
+            "course": "BIO 2450",
+            "title": "Final field study report",
+            "hours": 0.75
+          }
+        ]
+      },
+      {
+        "day": "2026-11-12",
+        "blocks": [
+          {
+            "item_id": "f992b632b3",
+            "course": "STAT 3120",
+            "title": "Problem Set 6 (model selection)",
+            "hours": 1.0
+          },
+          {
+            "item_id": "385d9244a7",
+            "course": "HIST 2290",
+            "title": "Response paper 3",
+            "hours": 0.25
+          },
+          {
+            "item_id": "4d1ec93714",
+            "course": "BIO 2450",
+            "title": "Final field study report",
+            "hours": 0.75
+          }
+        ]
+      },
+      {
+        "day": "2026-11-13",
+        "blocks": [
+          {
+            "item_id": "385d9244a7",
+            "course": "HIST 2290",
+            "title": "Response paper 3",
+            "hours": 0.25
+          },
+          {
+            "item_id": "4d1ec93714",
+            "course": "BIO 2450",
+            "title": "Final field study report",
+            "hours": 0.75
+          }
+        ]
+      },
+      {
+        "day": "2026-11-14",
+        "blocks": [
+          {
+            "item_id": "385d9244a7",
+            "course": "HIST 2290",
+            "title": "Response paper 3",
+            "hours": 0.25
+          },
+          {
+            "item_id": "4d1ec93714",
+            "course": "BIO 2450",
+            "title": "Final field study report",
+            "hours": 0.5
+          }
+        ]
+      },
+      {
+        "day": "2026-11-15",
+        "blocks": [
+          {
+            "item_id": "385d9244a7",
+            "course": "HIST 2290",
+            "title": "Response paper 3",
+            "hours": 0.25
+          },
+          {
+            "item_id": "43d0ca910a",
+            "course": "BIO 2450",
+            "title": "Lab 4 report (reef fish surveys from video)",
+            "hours": 1.0
+          },
+          {
+            "item_id": "4d1ec93714",
+            "course": "BIO 2450",
+            "title": "Final field study report",
+            "hours": 0.5
+          }
+        ]
+      },
+      {
+        "day": "2026-11-16",
+        "blocks": [
+          {
+            "item_id": "385d9244a7",
+            "course": "HIST 2290",
+            "title": "Response paper 3",
+            "hours": 0.25
+          },
+          {
+            "item_id": "43d0ca910a",
+            "course": "BIO 2450",
+            "title": "Lab 4 report (reef fish surveys from video)",
+            "hours": 0.75
+          },
+          {
+            "item_id": "4d1ec93714",
+            "course": "BIO 2450",
+            "title": "Final field study report",
+            "hours": 0.5
+          }
+        ]
+      },
+      {
+        "day": "2026-11-17",
+        "blocks": [
+          {
+            "item_id": "43d0ca910a",
+            "course": "BIO 2450",
+            "title": "Lab 4 report (reef fish surveys from video)",
+            "hours": 0.75
+          },
+          {
+            "item_id": "4d1ec93714",
+            "course": "BIO 2450",
+            "title": "Final field study report",
+            "hours": 0.5
+          }
+        ]
+      },
+      {
+        "day": "2026-11-18",
+        "blocks": [
+          {
+            "item_id": "43d0ca910a",
+            "course": "BIO 2450",
+            "title": "Lab 4 report (reef fish surveys from video)",
+            "hours": 0.75
+          },
+          {
+            "item_id": "4d1ec93714",
+            "course": "BIO 2450",
+            "title": "Final field study report",
+            "hours": 0.5
+          }
+        ]
+      },
+      {
+        "day": "2026-11-19",
+        "blocks": [
+          {
+            "item_id": "43d0ca910a",
+            "course": "BIO 2450",
+            "title": "Lab 4 report (reef fish surveys from video)",
+            "hours": 0.75
+          },
+          {
+            "item_id": "4d1ec93714",
+            "course": "BIO 2450",
+            "title": "Final field study report",
+            "hours": 0.5
+          }
+        ]
+      },
+      {
+        "day": "2026-11-20",
+        "blocks": [
+          {
+            "item_id": "8ec1fcde62",
+            "course": "BIO 2450",
+            "title": "Read Chapter 12, Fisheries and Bycatch",
+            "hours": 0.25
+          },
+          {
+            "item_id": "4d1ec93714",
+            "course": "BIO 2450",
+            "title": "Final field study report",
+            "hours": 0.5
+          },
+          {
+            "item_id": "f2630d8968",
+            "course": "STAT 3120",
+            "title": "Final project report",
+            "hours": 1.0
+          }
+        ]
+      },
+      {
+        "day": "2026-11-21",
+        "blocks": [
+          {
+            "item_id": "8ec1fcde62",
+            "course": "BIO 2450",
+            "title": "Read Chapter 12, Fisheries and Bycatch",
+            "hours": 0.25
+          },
+          {
+            "item_id": "39d77f2993",
+            "course": "HIST 2290",
+            "title": "Unit 6 reading: Cities in Crisis",
+            "hours": 0.5
+          },
+          {
+            "item_id": "4d1ec93714",
+            "course": "BIO 2450",
+            "title": "Final field study report",
+            "hours": 0.5
+          },
+          {
+            "item_id": "3a7172506a",
+            "course": "STAT 3120",
+            "title": "Problem Set 7 (logistic regression)",
+            "hours": 0.75
+          },
+          {
+            "item_id": "f2630d8968",
+            "course": "STAT 3120",
+            "title": "Final project report",
+            "hours": 1.0
+          }
+        ]
+      },
+      {
+        "day": "2026-11-22",
+        "blocks": [
+          {
+            "item_id": "8ec1fcde62",
+            "course": "BIO 2450",
+            "title": "Read Chapter 12, Fisheries and Bycatch",
+            "hours": 0.25
+          },
+          {
+            "item_id": "39d77f2993",
+            "course": "HIST 2290",
+            "title": "Unit 6 reading: Cities in Crisis",
+            "hours": 0.5
+          },
+          {
+            "item_id": "4d1ec93714",
+            "course": "BIO 2450",
+            "title": "Final field study report",
+            "hours": 0.5
+          },
+          {
+            "item_id": "3a7172506a",
+            "course": "STAT 3120",
+            "title": "Problem Set 7 (logistic regression)",
+            "hours": 0.75
+          },
+          {
+            "item_id": "f2630d8968",
+            "course": "STAT 3120",
+            "title": "Final project report",
+            "hours": 1.0
+          }
+        ]
+      },
+      {
+        "day": "2026-11-23",
+        "blocks": [
+          {
+            "item_id": "8ec1fcde62",
+            "course": "BIO 2450",
+            "title": "Read Chapter 12, Fisheries and Bycatch",
+            "hours": 0.25
+          },
+          {
+            "item_id": "39d77f2993",
+            "course": "HIST 2290",
+            "title": "Unit 6 reading: Cities in Crisis",
+            "hours": 0.5
+          },
+          {
+            "item_id": "4d1ec93714",
+            "course": "BIO 2450",
+            "title": "Final field study report",
+            "hours": 0.5
+          },
+          {
+            "item_id": "3a7172506a",
+            "course": "STAT 3120",
+            "title": "Problem Set 7 (logistic regression)",
+            "hours": 0.5
+          },
+          {
+            "item_id": "f2630d8968",
+            "course": "STAT 3120",
+            "title": "Final project report",
+            "hours": 1.0
+          }
+        ]
+      },
+      {
+        "day": "2026-11-24",
+        "blocks": [
+          {
+            "item_id": "8ec1fcde62",
+            "course": "BIO 2450",
+            "title": "Read Chapter 12, Fisheries and Bycatch",
+            "hours": 0.25
+          },
+          {
+            "item_id": "39d77f2993",
+            "course": "HIST 2290",
+            "title": "Unit 6 reading: Cities in Crisis",
+            "hours": 0.5
+          },
+          {
+            "item_id": "4d1ec93714",
+            "course": "BIO 2450",
+            "title": "Final field study report",
+            "hours": 0.5
+          },
+          {
+            "item_id": "3a7172506a",
+            "course": "STAT 3120",
+            "title": "Problem Set 7 (logistic regression)",
+            "hours": 0.5
+          },
+          {
+            "item_id": "f2630d8968",
+            "course": "STAT 3120",
+            "title": "Final project report",
+            "hours": 1.0
+          },
+          {
+            "item_id": "1d53cc22ee",
+            "course": "HIST 2290",
+            "title": "Final take-home exam",
+            "hours": 0.75
+          }
+        ]
+      },
+      {
+        "day": "2026-11-25",
+        "blocks": [
+          {
+            "item_id": "8ec1fcde62",
+            "course": "BIO 2450",
+            "title": "Read Chapter 12, Fisheries and Bycatch",
+            "hours": 0.25
+          },
+          {
+            "item_id": "39d77f2993",
+            "course": "HIST 2290",
+            "title": "Unit 6 reading: Cities in Crisis",
+            "hours": 0.25
+          },
+          {
+            "item_id": "4d1ec93714",
+            "course": "BIO 2450",
+            "title": "Final field study report",
+            "hours": 0.5
+          },
+          {
+            "item_id": "3a7172506a",
+            "course": "STAT 3120",
+            "title": "Problem Set 7 (logistic regression)",
+            "hours": 0.5
+          },
+          {
+            "item_id": "f2630d8968",
+            "course": "STAT 3120",
+            "title": "Final project report",
+            "hours": 1.0
+          },
+          {
+            "item_id": "1d53cc22ee",
+            "course": "HIST 2290",
+            "title": "Final take-home exam",
+            "hours": 0.75
+          }
+        ]
+      },
+      {
+        "day": "2026-11-26",
+        "blocks": [
+          {
+            "item_id": "8ec1fcde62",
+            "course": "BIO 2450",
+            "title": "Read Chapter 12, Fisheries and Bycatch",
+            "hours": 0.25
+          },
+          {
+            "item_id": "39d77f2993",
+            "course": "HIST 2290",
+            "title": "Unit 6 reading: Cities in Crisis",
+            "hours": 0.25
+          },
+          {
+            "item_id": "4d1ec93714",
+            "course": "BIO 2450",
+            "title": "Final field study report",
+            "hours": 0.5
+          },
+          {
+            "item_id": "3a7172506a",
+            "course": "STAT 3120",
+            "title": "Problem Set 7 (logistic regression)",
+            "hours": 0.5
+          },
+          {
+            "item_id": "f2630d8968",
+            "course": "STAT 3120",
+            "title": "Final project report",
+            "hours": 1.0
+          },
+          {
+            "item_id": "1d53cc22ee",
+            "course": "HIST 2290",
+            "title": "Final take-home exam",
+            "hours": 0.75
+          },
+          {
+            "item_id": "1a859f842f",
+            "course": "STAT 3120",
+            "title": "Final exam (cumulative)",
+            "hours": 0.25
+          }
+        ]
+      },
+      {
+        "day": "2026-11-27",
+        "blocks": [
+          {
+            "item_id": "8ec1fcde62",
+            "course": "BIO 2450",
+            "title": "Read Chapter 12, Fisheries and Bycatch",
+            "hours": 0.25
+          },
+          {
+            "item_id": "39d77f2993",
+            "course": "HIST 2290",
+            "title": "Unit 6 reading: Cities in Crisis",
+            "hours": 0.25
+          },
+          {
+            "item_id": "4d1ec93714",
+            "course": "BIO 2450",
+            "title": "Final field study report",
+            "hours": 0.5
+          },
+          {
+            "item_id": "3a7172506a",
+            "course": "STAT 3120",
+            "title": "Problem Set 7 (logistic regression)",
+            "hours": 0.5
+          },
+          {
+            "item_id": "f2630d8968",
+            "course": "STAT 3120",
+            "title": "Final project report",
+            "hours": 1.0
+          },
+          {
+            "item_id": "1d53cc22ee",
+            "course": "HIST 2290",
+            "title": "Final take-home exam",
+            "hours": 0.75
+          },
+          {
+            "item_id": "1a859f842f",
+            "course": "STAT 3120",
+            "title": "Final exam (cumulative)",
+            "hours": 0.25
+          }
+        ]
+      },
+      {
+        "day": "2026-11-28",
+        "blocks": [
+          {
+            "item_id": "39d77f2993",
+            "course": "HIST 2290",
+            "title": "Unit 6 reading: Cities in Crisis",
+            "hours": 0.25
+          },
+          {
+            "item_id": "4d1ec93714",
+            "course": "BIO 2450",
+            "title": "Final field study report",
+            "hours": 0.5
+          },
+          {
+            "item_id": "3a7172506a",
+            "course": "STAT 3120",
+            "title": "Problem Set 7 (logistic regression)",
+            "hours": 0.5
+          },
+          {
+            "item_id": "f2630d8968",
+            "course": "STAT 3120",
+            "title": "Final project report",
+            "hours": 1.0
+          },
+          {
+            "item_id": "1d53cc22ee",
+            "course": "HIST 2290",
+            "title": "Final take-home exam",
+            "hours": 0.75
+          },
+          {
+            "item_id": "1a859f842f",
+            "course": "STAT 3120",
+            "title": "Final exam (cumulative)",
+            "hours": 0.5
+          }
+        ]
+      },
+      {
+        "day": "2026-11-29",
+        "blocks": [
+          {
+            "item_id": "39d77f2993",
+            "course": "HIST 2290",
+            "title": "Unit 6 reading: Cities in Crisis",
+            "hours": 0.25
+          },
+          {
+            "item_id": "4d1ec93714",
+            "course": "BIO 2450",
+            "title": "Final field study report",
+            "hours": 0.5
+          },
+          {
+            "item_id": "3a7172506a",
+            "course": "STAT 3120",
+            "title": "Problem Set 7 (logistic regression)",
+            "hours": 0.5
+          },
+          {
+            "item_id": "f2630d8968",
+            "course": "STAT 3120",
+            "title": "Final project report",
+            "hours": 1.0
+          },
+          {
+            "item_id": "1d53cc22ee",
+            "course": "HIST 2290",
+            "title": "Final take-home exam",
+            "hours": 0.75
+          },
+          {
+            "item_id": "1a859f842f",
+            "course": "STAT 3120",
+            "title": "Final exam (cumulative)",
+            "hours": 0.5
+          }
+        ]
+      },
+      {
+        "day": "2026-11-30",
+        "blocks": [
+          {
+            "item_id": "39d77f2993",
+            "course": "HIST 2290",
+            "title": "Unit 6 reading: Cities in Crisis",
+            "hours": 0.25
+          },
+          {
+            "item_id": "4d1ec93714",
+            "course": "BIO 2450",
+            "title": "Final field study report",
+            "hours": 0.5
+          },
+          {
+            "item_id": "3a7172506a",
+            "course": "STAT 3120",
+            "title": "Problem Set 7 (logistic regression)",
+            "hours": 0.5
+          },
+          {
+            "item_id": "f2630d8968",
+            "course": "STAT 3120",
+            "title": "Final project report",
+            "hours": 1.0
+          },
+          {
+            "item_id": "1d53cc22ee",
+            "course": "HIST 2290",
+            "title": "Final take-home exam",
+            "hours": 0.75
+          },
+          {
+            "item_id": "1a859f842f",
+            "course": "STAT 3120",
+            "title": "Final exam (cumulative)",
+            "hours": 0.5
+          }
+        ]
+      },
+      {
+        "day": "2026-12-01",
+        "blocks": [
+          {
+            "item_id": "4d1ec93714",
+            "course": "BIO 2450",
+            "title": "Final field study report",
+            "hours": 0.5
+          },
+          {
+            "item_id": "3a7172506a",
+            "course": "STAT 3120",
+            "title": "Problem Set 7 (logistic regression)",
+            "hours": 0.5
+          },
+          {
+            "item_id": "f2630d8968",
+            "course": "STAT 3120",
+            "title": "Final project report",
+            "hours": 1.0
+          },
+          {
+            "item_id": "1d53cc22ee",
+            "course": "HIST 2290",
+            "title": "Final take-home exam",
+            "hours": 0.75
+          },
+          {
+            "item_id": "1a859f842f",
+            "course": "STAT 3120",
+            "title": "Final exam (cumulative)",
+            "hours": 0.75
+          }
+        ]
+      },
+      {
+        "day": "2026-12-02",
+        "blocks": [
+          {
+            "item_id": "4d1ec93714",
+            "course": "BIO 2450",
+            "title": "Final field study report",
+            "hours": 0.5
+          },
+          {
+            "item_id": "3a7172506a",
+            "course": "STAT 3120",
+            "title": "Problem Set 7 (logistic regression)",
+            "hours": 0.5
+          },
+          {
+            "item_id": "f2630d8968",
+            "course": "STAT 3120",
+            "title": "Final project report",
+            "hours": 1.0
+          },
+          {
+            "item_id": "1d53cc22ee",
+            "course": "HIST 2290",
+            "title": "Final take-home exam",
+            "hours": 0.75
+          },
+          {
+            "item_id": "1a859f842f",
+            "course": "STAT 3120",
+            "title": "Final exam (cumulative)",
+            "hours": 0.75
+          }
+        ]
+      },
+      {
+        "day": "2026-12-03",
+        "blocks": [
+          {
+            "item_id": "4d1ec93714",
+            "course": "BIO 2450",
+            "title": "Final field study report",
+            "hours": 0.5
+          },
+          {
+            "item_id": "3a7172506a",
+            "course": "STAT 3120",
+            "title": "Problem Set 7 (logistic regression)",
+            "hours": 0.5
+          },
+          {
+            "item_id": "f2630d8968",
+            "course": "STAT 3120",
+            "title": "Final project report",
+            "hours": 1.0
+          },
+          {
+            "item_id": "1d53cc22ee",
+            "course": "HIST 2290",
+            "title": "Final take-home exam",
+            "hours": 0.75
+          },
+          {
+            "item_id": "1a859f842f",
+            "course": "STAT 3120",
+            "title": "Final exam (cumulative)",
+            "hours": 0.75
+          }
+        ]
+      },
+      {
+        "day": "2026-12-04",
+        "blocks": [
+          {
+            "item_id": "f2630d8968",
+            "course": "STAT 3120",
+            "title": "Final project report",
+            "hours": 1.0
+          },
+          {
+            "item_id": "1d53cc22ee",
+            "course": "HIST 2290",
+            "title": "Final take-home exam",
+            "hours": 0.75
+          },
+          {
+            "item_id": "1a859f842f",
+            "course": "STAT 3120",
+            "title": "Final exam (cumulative)",
+            "hours": 1.0
+          },
+          {
+            "item_id": "ee524c50d3",
+            "course": "BIO 2450",
+            "title": "Final exam (cumulative)",
+            "hours": 0.75
+          }
+        ]
+      },
+      {
+        "day": "2026-12-05",
+        "blocks": [
+          {
+            "item_id": "f2630d8968",
+            "course": "STAT 3120",
+            "title": "Final project report",
+            "hours": 1.0
+          },
+          {
+            "item_id": "1d53cc22ee",
+            "course": "HIST 2290",
+            "title": "Final take-home exam",
+            "hours": 0.75
+          },
+          {
+            "item_id": "1a859f842f",
+            "course": "STAT 3120",
+            "title": "Final exam (cumulative)",
+            "hours": 1.0
+          },
+          {
+            "item_id": "ee524c50d3",
+            "course": "BIO 2450",
+            "title": "Final exam (cumulative)",
+            "hours": 0.75
+          }
+        ]
+      },
+      {
+        "day": "2026-12-06",
+        "blocks": [
+          {
+            "item_id": "f2630d8968",
+            "course": "STAT 3120",
+            "title": "Final project report",
+            "hours": 1.0
+          },
+          {
+            "item_id": "1d53cc22ee",
+            "course": "HIST 2290",
+            "title": "Final take-home exam",
+            "hours": 0.75
+          },
+          {
+            "item_id": "1a859f842f",
+            "course": "STAT 3120",
+            "title": "Final exam (cumulative)",
+            "hours": 1.0
+          },
+          {
+            "item_id": "ee524c50d3",
+            "course": "BIO 2450",
+            "title": "Final exam (cumulative)",
+            "hours": 0.75
+          }
+        ]
+      },
+      {
+        "day": "2026-12-07",
+        "blocks": [
+          {
+            "item_id": "f2630d8968",
+            "course": "STAT 3120",
+            "title": "Final project report",
+            "hours": 0.75
+          },
+          {
+            "item_id": "1d53cc22ee",
+            "course": "HIST 2290",
+            "title": "Final take-home exam",
+            "hours": 0.75
+          },
+          {
+            "item_id": "1a859f842f",
+            "course": "STAT 3120",
+            "title": "Final exam (cumulative)",
+            "hours": 1.0
+          },
+          {
+            "item_id": "ee524c50d3",
+            "course": "BIO 2450",
+            "title": "Final exam (cumulative)",
+            "hours": 1.0
+          }
+        ]
+      },
+      {
+        "day": "2026-12-08",
+        "blocks": [
+          {
+            "item_id": "f2630d8968",
+            "course": "STAT 3120",
+            "title": "Final project report",
+            "hours": 0.75
+          },
+          {
+            "item_id": "1d53cc22ee",
+            "course": "HIST 2290",
+            "title": "Final take-home exam",
+            "hours": 0.75
+          },
+          {
+            "item_id": "1a859f842f",
+            "course": "STAT 3120",
+            "title": "Final exam (cumulative)",
+            "hours": 1.0
+          },
+          {
+            "item_id": "ee524c50d3",
+            "course": "BIO 2450",
+            "title": "Final exam (cumulative)",
+            "hours": 1.0
+          }
+        ]
+      },
+      {
+        "day": "2026-12-09",
+        "blocks": [
+          {
+            "item_id": "f2630d8968",
+            "course": "STAT 3120",
+            "title": "Final project report",
+            "hours": 0.75
+          },
+          {
+            "item_id": "1d53cc22ee",
+            "course": "HIST 2290",
+            "title": "Final take-home exam",
+            "hours": 0.75
+          },
+          {
+            "item_id": "1a859f842f",
+            "course": "STAT 3120",
+            "title": "Final exam (cumulative)",
+            "hours": 1.0
+          },
+          {
+            "item_id": "ee524c50d3",
+            "course": "BIO 2450",
+            "title": "Final exam (cumulative)",
+            "hours": 1.0
+          }
+        ]
+      },
+      {
+        "day": "2026-12-10",
+        "blocks": [
+          {
+            "item_id": "f2630d8968",
+            "course": "STAT 3120",
+            "title": "Final project report",
+            "hours": 0.75
+          },
+          {
+            "item_id": "1d53cc22ee",
+            "course": "HIST 2290",
+            "title": "Final take-home exam",
+            "hours": 0.5
+          },
+          {
+            "item_id": "1a859f842f",
+            "course": "STAT 3120",
+            "title": "Final exam (cumulative)",
+            "hours": 1.0
+          },
+          {
+            "item_id": "ee524c50d3",
+            "course": "BIO 2450",
+            "title": "Final exam (cumulative)",
+            "hours": 1.25
+          }
+        ]
+      },
+      {
+        "day": "2026-12-11",
+        "blocks": [
+          {
+            "item_id": "1d53cc22ee",
+            "course": "HIST 2290",
+            "title": "Final take-home exam",
+            "hours": 0.5
+          },
+          {
+            "item_id": "1a859f842f",
+            "course": "STAT 3120",
+            "title": "Final exam (cumulative)",
+            "hours": 0.75
+          },
+          {
+            "item_id": "ee524c50d3",
+            "course": "BIO 2450",
+            "title": "Final exam (cumulative)",
+            "hours": 1.5
+          }
+        ]
+      },
+      {
+        "day": "2026-12-12",
+        "blocks": [
+          {
+            "item_id": "1d53cc22ee",
+            "course": "HIST 2290",
+            "title": "Final take-home exam",
+            "hours": 0.5
+          },
+          {
+            "item_id": "1a859f842f",
+            "course": "STAT 3120",
+            "title": "Final exam (cumulative)",
+            "hours": 0.75
+          },
+          {
+            "item_id": "ee524c50d3",
+            "course": "BIO 2450",
+            "title": "Final exam (cumulative)",
+            "hours": 1.5
+          }
+        ]
+      },
+      {
+        "day": "2026-12-13",
+        "blocks": [
+          {
+            "item_id": "1d53cc22ee",
+            "course": "HIST 2290",
+            "title": "Final take-home exam",
+            "hours": 0.5
+          },
+          {
+            "item_id": "1a859f842f",
+            "course": "STAT 3120",
+            "title": "Final exam (cumulative)",
+            "hours": 0.75
+          },
+          {
+            "item_id": "ee524c50d3",
+            "course": "BIO 2450",
+            "title": "Final exam (cumulative)",
+            "hours": 1.5
+          }
+        ]
+      },
+      {
+        "day": "2026-12-14",
+        "blocks": [
+          {
+            "item_id": "1a859f842f",
+            "course": "STAT 3120",
+            "title": "Final exam (cumulative)",
+            "hours": 0.75
+          },
+          {
+            "item_id": "ee524c50d3",
+            "course": "BIO 2450",
+            "title": "Final exam (cumulative)",
+            "hours": 1.5
+          }
+        ]
+      },
+      {
+        "day": "2026-12-15",
+        "blocks": [
+          {
+            "item_id": "1a859f842f",
+            "course": "STAT 3120",
+            "title": "Final exam (cumulative)",
+            "hours": 0.75
+          },
+          {
+            "item_id": "ee524c50d3",
+            "course": "BIO 2450",
+            "title": "Final exam (cumulative)",
+            "hours": 1.25
+          }
+        ]
+      },
+      {
+        "day": "2026-12-16",
+        "blocks": [
+          {
+            "item_id": "ee524c50d3",
+            "course": "BIO 2450",
+            "title": "Final exam (cumulative)",
+            "hours": 1.25
+          }
+        ]
+      }
+    ],
+    "weeks": [
+      {
+        "week_start": "2026-10-26",
+        "planned_hours": 17.5,
+        "due_item_ids": [
+          "b0f45f39c2",
+          "98ef69c79e",
+          "3e9e532820"
+        ],
+        "is_crunch": false,
+        "crunch_reasons": [],
+        "by_item": [
+          {
+            "item_id": "b0f45f39c2",
+            "course": "HIST 2290",
+            "title": "Essay 2 prospectus",
+            "hours": 3.5
+          },
+          {
+            "item_id": "3e9e532820",
+            "course": "STAT 3120",
+            "title": "Problem Set 5 (transformations and interactions)",
+            "hours": 3.5
+          },
+          {
+            "item_id": "ce2d92a101",
+            "course": "BIO 2450",
+            "title": "Midterm exam",
+            "hours": 3.25
+          },
+          {
+            "item_id": "562595f4db",
+            "course": "STAT 3120",
+            "title": "Final project proposal",
+            "hours": 3.0
+          },
+          {
+            "item_id": "a4a8e78a9f",
+            "course": "HIST 2290",
+            "title": "Map quiz",
+            "hours": 2.25
+          },
+          {
+            "item_id": "26edd37b7b",
+            "course": "BIO 2450",
+            "title": "Read Chapter 9, Coral Reefs and Bleaching",
+            "hours": 2.0
+          }
+        ]
+      },
+      {
+        "week_start": "2026-11-02",
+        "planned_hours": 22.0,
+        "due_item_ids": [
+          "562595f4db",
+          "26edd37b7b",
+          "a4a8e78a9f",
+          "ce2d92a101",
+          "b31f9eab77",
+          "abe260bc57",
+          "b23a087037",
+          "8adbf7b252"
+        ],
+        "is_crunch": true,
+        "crunch_reasons": [
+          "57.5 h of work due vs. a 25 h weekly budget",
+          "3 major items (exams or 10%+ of a grade)",
+          "6 graded deadlines across 3 courses"
+        ],
+        "by_item": [
+          {
+            "item_id": "ce2d92a101",
+            "course": "BIO 2450",
+            "title": "Midterm exam",
+            "hours": 6.25
+          },
+          {
+            "item_id": "b31f9eab77",
+            "course": "HIST 2290",
+            "title": "Essay 2 (comparing two cities)",
+            "hours": 3.5
+          },
+          {
+            "item_id": "8adbf7b252",
+            "course": "BIO 2450",
+            "title": "Field study draft",
+            "hours": 3.5
+          },
+          {
+            "item_id": "1217293401",
+            "course": "HIST 2290",
+            "title": "Unit 5 reading: Capitals and Courts",
+            "hours": 2.75
+          },
+          {
+            "item_id": "4d1ec93714",
+            "course": "BIO 2450",
+            "title": "Final field study report",
+            "hours": 2.25
+          },
+          {
+            "item_id": "f992b632b3",
+            "course": "STAT 3120",
+            "title": "Problem Set 6 (model selection)",
+            "hours": 2.0
+          },
+          {
+            "item_id": "385d9244a7",
+            "course": "HIST 2290",
+            "title": "Response paper 3",
+            "hours": 1.0
+          },
+          {
+            "item_id": "a4a8e78a9f",
+            "course": "HIST 2290",
+            "title": "Map quiz",
+            "hours": 0.75
+          }
+        ]
+      },
+      {
+        "week_start": "2026-11-09",
+        "planned_hours": 12.75,
+        "due_item_ids": [
+          "1217293401",
+          "f992b632b3"
+        ],
+        "is_crunch": false,
+        "crunch_reasons": [],
+        "by_item": [
+          {
+            "item_id": "4d1ec93714",
+            "course": "BIO 2450",
+            "title": "Final field study report",
+            "hours": 4.75
+          },
+          {
+            "item_id": "f992b632b3",
+            "course": "STAT 3120",
+            "title": "Problem Set 6 (model selection)",
+            "hours": 4.0
+          },
+          {
+            "item_id": "385d9244a7",
+            "course": "HIST 2290",
+            "title": "Response paper 3",
+            "hours": 1.75
+          },
+          {
+            "item_id": "1217293401",
+            "course": "HIST 2290",
+            "title": "Unit 5 reading: Capitals and Courts",
+            "hours": 1.25
+          },
+          {
+            "item_id": "43d0ca910a",
+            "course": "BIO 2450",
+            "title": "Lab 4 report (reef fish surveys from video)",
+            "hours": 1.0
+          }
+        ]
+      },
+      {
+        "week_start": "2026-11-16",
+        "planned_hours": 13.0,
+        "due_item_ids": [
+          "385d9244a7",
+          "43d0ca910a"
+        ],
+        "is_crunch": false,
+        "crunch_reasons": [],
+        "by_item": [
+          {
+            "item_id": "4d1ec93714",
+            "course": "BIO 2450",
+            "title": "Final field study report",
+            "hours": 3.5
+          },
+          {
+            "item_id": "43d0ca910a",
+            "course": "BIO 2450",
+            "title": "Lab 4 report (reef fish surveys from video)",
+            "hours": 3.0
+          },
+          {
+            "item_id": "f2630d8968",
+            "course": "STAT 3120",
+            "title": "Final project report",
+            "hours": 3.0
+          },
+          {
+            "item_id": "3a7172506a",
+            "course": "STAT 3120",
+            "title": "Problem Set 7 (logistic regression)",
+            "hours": 1.5
+          },
+          {
+            "item_id": "39d77f2993",
+            "course": "HIST 2290",
+            "title": "Unit 6 reading: Cities in Crisis",
+            "hours": 1.0
+          },
+          {
+            "item_id": "8ec1fcde62",
+            "course": "BIO 2450",
+            "title": "Read Chapter 12, Fisheries and Bycatch",
+            "hours": 0.75
+          },
+          {
+            "item_id": "385d9244a7",
+            "course": "HIST 2290",
+            "title": "Response paper 3",
+            "hours": 0.25
+          }
+        ]
+      },
+      {
+        "week_start": "2026-11-23",
+        "planned_hours": 23.5,
+        "due_item_ids": [],
+        "is_crunch": false,
+        "crunch_reasons": [],
+        "by_item": [
+          {
+            "item_id": "f2630d8968",
+            "course": "STAT 3120",
+            "title": "Final project report",
+            "hours": 7.0
+          },
+          {
+            "item_id": "1d53cc22ee",
+            "course": "HIST 2290",
+            "title": "Final take-home exam",
+            "hours": 4.5
+          },
+          {
+            "item_id": "4d1ec93714",
+            "course": "BIO 2450",
+            "title": "Final field study report",
+            "hours": 3.5
+          },
+          {
+            "item_id": "3a7172506a",
+            "course": "STAT 3120",
+            "title": "Problem Set 7 (logistic regression)",
+            "hours": 3.5
+          },
+          {
+            "item_id": "39d77f2993",
+            "course": "HIST 2290",
+            "title": "Unit 6 reading: Cities in Crisis",
+            "hours": 2.25
+          },
+          {
+            "item_id": "1a859f842f",
+            "course": "STAT 3120",
+            "title": "Final exam (cumulative)",
+            "hours": 1.5
+          },
+          {
+            "item_id": "8ec1fcde62",
+            "course": "BIO 2450",
+            "title": "Read Chapter 12, Fisheries and Bycatch",
+            "hours": 1.25
+          }
+        ]
+      },
+      {
+        "week_start": "2026-11-30",
+        "planned_hours": 24.5,
+        "due_item_ids": [
+          "8ec1fcde62",
+          "39d77f2993",
+          "4d1ec93714",
+          "3a7172506a"
+        ],
+        "is_crunch": true,
+        "crunch_reasons": [
+          "28.5 h of work due vs. a 25 h weekly budget"
+        ],
+        "by_item": [
+          {
+            "item_id": "f2630d8968",
+            "course": "STAT 3120",
+            "title": "Final project report",
+            "hours": 7.0
+          },
+          {
+            "item_id": "1a859f842f",
+            "course": "STAT 3120",
+            "title": "Final exam (cumulative)",
+            "hours": 5.75
+          },
+          {
+            "item_id": "1d53cc22ee",
+            "course": "HIST 2290",
+            "title": "Final take-home exam",
+            "hours": 5.25
+          },
+          {
+            "item_id": "ee524c50d3",
+            "course": "BIO 2450",
+            "title": "Final exam (cumulative)",
+            "hours": 2.25
+          },
+          {
+            "item_id": "4d1ec93714",
+            "course": "BIO 2450",
+            "title": "Final field study report",
+            "hours": 2.0
+          },
+          {
+            "item_id": "3a7172506a",
+            "course": "STAT 3120",
+            "title": "Problem Set 7 (logistic regression)",
+            "hours": 2.0
+          },
+          {
+            "item_id": "39d77f2993",
+            "course": "HIST 2290",
+            "title": "Unit 6 reading: Cities in Crisis",
+            "hours": 0.25
+          }
+        ]
+      },
+      {
+        "week_start": "2026-12-07",
+        "planned_hours": 22.25,
+        "due_item_ids": [
+          "f2630d8968"
+        ],
+        "is_crunch": false,
+        "crunch_reasons": [],
+        "by_item": [
+          {
+            "item_id": "ee524c50d3",
+            "course": "BIO 2450",
+            "title": "Final exam (cumulative)",
+            "hours": 8.75
+          },
+          {
+            "item_id": "1a859f842f",
+            "course": "STAT 3120",
+            "title": "Final exam (cumulative)",
+            "hours": 6.25
+          },
+          {
+            "item_id": "1d53cc22ee",
+            "course": "HIST 2290",
+            "title": "Final take-home exam",
+            "hours": 4.25
+          },
+          {
+            "item_id": "f2630d8968",
+            "course": "STAT 3120",
+            "title": "Final project report",
+            "hours": 3.0
+          }
+        ]
+      },
+      {
+        "week_start": "2026-12-14",
+        "planned_hours": 5.5,
+        "due_item_ids": [
+          "1d53cc22ee",
+          "1a859f842f",
+          "ee524c50d3"
+        ],
+        "is_crunch": true,
+        "crunch_reasons": [
+          "44 h of work due vs. a 25 h weekly budget",
+          "3 major items (exams or 10%+ of a grade)"
+        ],
+        "by_item": [
+          {
+            "item_id": "ee524c50d3",
+            "course": "BIO 2450",
+            "title": "Final exam (cumulative)",
+            "hours": 4.0
+          },
+          {
+            "item_id": "1a859f842f",
+            "course": "STAT 3120",
+            "title": "Final exam (cumulative)",
+            "hours": 1.5
+          }
+        ]
+      }
+    ],
+    "schedule": [
+      {
+        "item_id": "b0f45f39c2",
+        "start_by": "2026-10-28",
+        "scheduled_hours": 3.5,
+        "unscheduled_hours": 0.5,
+        "at_risk": true,
+        "front_loaded": false
+      },
+      {
+        "item_id": "3e9e532820",
+        "start_by": "2026-10-29",
+        "scheduled_hours": 3.5,
+        "unscheduled_hours": 2.5,
+        "at_risk": true,
+        "front_loaded": false
+      },
+      {
+        "item_id": "98ef69c79e",
+        "start_by": null,
+        "scheduled_hours": 0.0,
+        "unscheduled_hours": 4.0,
+        "at_risk": true,
+        "front_loaded": false
+      },
+      {
+        "item_id": "562595f4db",
+        "start_by": "2026-10-30",
+        "scheduled_hours": 3.0,
+        "unscheduled_hours": 0.0,
+        "at_risk": false,
+        "front_loaded": true
+      },
+      {
+        "item_id": "26edd37b7b",
+        "start_by": "2026-10-30",
+        "scheduled_hours": 2.0,
+        "unscheduled_hours": 0.0,
+        "at_risk": false,
+        "front_loaded": true
+      },
+      {
+        "item_id": "a4a8e78a9f",
+        "start_by": "2026-10-30",
+        "scheduled_hours": 3.0,
+        "unscheduled_hours": 0.0,
+        "at_risk": false,
+        "front_loaded": true
+      },
+      {
+        "item_id": "ce2d92a101",
+        "start_by": "2026-10-30",
+        "scheduled_hours": 9.5,
+        "unscheduled_hours": 2.5,
+        "at_risk": true,
+        "front_loaded": true
+      },
+      {
+        "item_id": "b31f9eab77",
+        "start_by": "2026-11-04",
+        "scheduled_hours": 3.5,
+        "unscheduled_hours": 14.5,
+        "at_risk": true,
+        "front_loaded": true
+      },
+      {
+        "item_id": "abe260bc57",
+        "start_by": null,
+        "scheduled_hours": 0.0,
+        "unscheduled_hours": 12.0,
+        "at_risk": true,
+        "front_loaded": true
+      },
+      {
+        "item_id": "b23a087037",
+        "start_by": null,
+        "scheduled_hours": 0.0,
+        "unscheduled_hours": 1.5,
+        "at_risk": true,
+        "front_loaded": true
+      },
+      {
+        "item_id": "8adbf7b252",
+        "start_by": "2026-11-05",
+        "scheduled_hours": 3.5,
+        "unscheduled_hours": 2.5,
+        "at_risk": true,
+        "front_loaded": true
+      },
+      {
+        "item_id": "1217293401",
+        "start_by": "2026-11-07",
+        "scheduled_hours": 4.0,
+        "unscheduled_hours": 0.0,
+        "at_risk": false,
+        "front_loaded": false
+      },
+      {
+        "item_id": "f992b632b3",
+        "start_by": "2026-11-07",
+        "scheduled_hours": 6.0,
+        "unscheduled_hours": 0.0,
+        "at_risk": false,
+        "front_loaded": false
+      },
+      {
+        "item_id": "385d9244a7",
+        "start_by": "2026-11-06",
+        "scheduled_hours": 3.0,
+        "unscheduled_hours": 0.0,
+        "at_risk": false,
+        "front_loaded": false
+      },
+      {
+        "item_id": "43d0ca910a",
+        "start_by": "2026-11-15",
+        "scheduled_hours": 4.0,
+        "unscheduled_hours": 0.0,
+        "at_risk": false,
+        "front_loaded": false
+      },
+      {
+        "item_id": "8ec1fcde62",
+        "start_by": "2026-11-20",
+        "scheduled_hours": 2.0,
+        "unscheduled_hours": 0.0,
+        "at_risk": false,
+        "front_loaded": true
+      },
+      {
+        "item_id": "39d77f2993",
+        "start_by": "2026-11-21",
+        "scheduled_hours": 3.5,
+        "unscheduled_hours": 0.0,
+        "at_risk": false,
+        "front_loaded": true
+      },
+      {
+        "item_id": "4d1ec93714",
+        "start_by": "2026-11-06",
+        "scheduled_hours": 16.0,
+        "unscheduled_hours": 0.0,
+        "at_risk": false,
+        "front_loaded": true
+      },
+      {
+        "item_id": "3a7172506a",
+        "start_by": "2026-11-21",
+        "scheduled_hours": 7.0,
+        "unscheduled_hours": 0.0,
+        "at_risk": false,
+        "front_loaded": true
+      },
+      {
+        "item_id": "f2630d8968",
+        "start_by": "2026-11-20",
+        "scheduled_hours": 20.0,
+        "unscheduled_hours": 0.0,
+        "at_risk": false,
+        "front_loaded": false
+      },
+      {
+        "item_id": "1d53cc22ee",
+        "start_by": "2026-11-24",
+        "scheduled_hours": 14.0,
+        "unscheduled_hours": 0.0,
+        "at_risk": false,
+        "front_loaded": true
+      },
+      {
+        "item_id": "1a859f842f",
+        "start_by": "2026-11-26",
+        "scheduled_hours": 15.0,
+        "unscheduled_hours": 0.0,
+        "at_risk": false,
+        "front_loaded": true
+      },
+      {
+        "item_id": "ee524c50d3",
+        "start_by": "2026-12-04",
+        "scheduled_hours": 15.0,
+        "unscheduled_hours": 0.0,
+        "at_risk": false,
+        "front_loaded": true
+      }
+    ]
+  },
+  "next7": {
+    "from": "2026-10-28",
+    "to": "2026-11-03",
+    "due": [
+      "b0f45f39c2",
+      "98ef69c79e",
+      "3e9e532820",
+      "562595f4db",
+      "26edd37b7b",
+      "a4a8e78a9f"
+    ],
+    "study_days": [
+      {
+        "day": "2026-10-28",
+        "hours": 3.5,
+        "blocks": [
+          {
+            "item_id": "b0f45f39c2",
+            "course": "HIST 2290",
+            "title": "Essay 2 prospectus",
+            "hours": 3.5
+          }
+        ]
+      },
+      {
+        "day": "2026-10-29",
+        "hours": 3.5,
+        "blocks": [
+          {
+            "item_id": "3e9e532820",
+            "course": "STAT 3120",
+            "title": "Problem Set 5 (transformations and interactions)",
+            "hours": 3.5
+          }
+        ]
+      },
+      {
+        "day": "2026-10-30",
+        "hours": 3.5,
+        "blocks": [
+          {
+            "item_id": "562595f4db",
+            "course": "STAT 3120",
+            "title": "Final project proposal",
+            "hours": 1.0
+          },
+          {
+            "item_id": "26edd37b7b",
+            "course": "BIO 2450",
+            "title": "Read Chapter 9, Coral Reefs and Bleaching",
+            "hours": 0.75
+          },
+          {
+            "item_id": "a4a8e78a9f",
+            "course": "HIST 2290",
+            "title": "Map quiz",
+            "hours": 0.75
+          },
+          {
+            "item_id": "ce2d92a101",
+            "course": "BIO 2450",
+            "title": "Midterm exam",
+            "hours": 1.0
+          }
+        ]
+      },
+      {
+        "day": "2026-10-31",
+        "hours": 3.5,
+        "blocks": [
+          {
+            "item_id": "562595f4db",
+            "course": "STAT 3120",
+            "title": "Final project proposal",
+            "hours": 1.0
+          },
+          {
+            "item_id": "26edd37b7b",
+            "course": "BIO 2450",
+            "title": "Read Chapter 9, Coral Reefs and Bleaching",
+            "hours": 0.75
+          },
+          {
+            "item_id": "a4a8e78a9f",
+            "course": "HIST 2290",
+            "title": "Map quiz",
+            "hours": 0.75
+          },
+          {
+            "item_id": "ce2d92a101",
+            "course": "BIO 2450",
+            "title": "Midterm exam",
+            "hours": 1.0
+          }
+        ]
+      },
+      {
+        "day": "2026-11-01",
+        "hours": 3.5,
+        "blocks": [
+          {
+            "item_id": "562595f4db",
+            "course": "STAT 3120",
+            "title": "Final project proposal",
+            "hours": 1.0
+          },
+          {
+            "item_id": "26edd37b7b",
+            "course": "BIO 2450",
+            "title": "Read Chapter 9, Coral Reefs and Bleaching",
+            "hours": 0.5
+          },
+          {
+            "item_id": "a4a8e78a9f",
+            "course": "HIST 2290",
+            "title": "Map quiz",
+            "hours": 0.75
+          },
+          {
+            "item_id": "ce2d92a101",
+            "course": "BIO 2450",
+            "title": "Midterm exam",
+            "hours": 1.25
+          }
+        ]
+      },
+      {
+        "day": "2026-11-02",
+        "hours": 3.5,
+        "blocks": [
+          {
+            "item_id": "a4a8e78a9f",
+            "course": "HIST 2290",
+            "title": "Map quiz",
+            "hours": 0.75
+          },
+          {
+            "item_id": "ce2d92a101",
+            "course": "BIO 2450",
+            "title": "Midterm exam",
+            "hours": 2.75
+          }
+        ]
+      },
+      {
+        "day": "2026-11-03",
+        "hours": 3.5,
+        "blocks": [
+          {
+            "item_id": "ce2d92a101",
+            "course": "BIO 2450",
+            "title": "Midterm exam",
+            "hours": 3.5
+          }
+        ]
+      }
+    ],
+    "study_hours": 24.5
+  },
+  "coach": {
+    "headline": "3 graded deadlines within 72 hours (Oct 29 to Oct 30)",
+    "tips": [
+      "HIST 2290 Essay 2 prospectus is short 0.5 h in your budget; find extra time this week or ask for an extension early.",
+      "STAT 3120 Problem Set 5 (transformations and interactions) is short 2.5 h in your budget; find extra time this week or ask for an extension early.",
+      "Block 18.0 hours for HIST 2290 Essay 2 (comparing two cities) before 2026-11-05.",
+      "Block 12.0 hours for BIO 2450 Midterm exam before 2026-11-04."
+    ]
+  }
+}

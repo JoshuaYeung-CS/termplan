@@ -1,0 +1,581 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Termplan//Syllabus Planner 0.1//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Termplan
+BEGIN:VEVENT
+UID:8eb28be7f9@termplan
+DTSTAMP:20261028T072553Z
+DTSTART;VALUE=DATE:20260904
+DTEND;VALUE=DATE:20260905
+SUMMARY:Read: STAT 3120 Read Notes chapters 1-2
+DESCRIPTION:STAT 3120: Read Notes chapters 1-2 (reading)\nEstimated work: 2
+  h\nSyllabus says: "Read Notes chapters 1-2 before the first lab on Septem
+ ber 4."
+CATEGORIES:STAT 3120,READING
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:81d830b5c2@termplan
+DTSTAMP:20261028T072553Z
+DTSTART:20260911T235900
+DTEND:20260912T002900
+SUMMARY:Due: STAT 3120 Problem Set 1 (simple regression)
+DESCRIPTION:STAT 3120: Problem Set 1 (simple regression) (assignment)\nWeig
+ ht: 4.17% of the course grade\nEstimated work: 5 h\nSyllabus says: "Proble
+ m Set 1 (simple regression) -- due Friday\, September 11"
+CATEGORIES:STAT 3120,ASSIGNMENT
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:STAT 3120 Problem Set 1 (simple regression)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:afecd7c913@termplan
+DTSTAMP:20261028T072553Z
+DTSTART:20260918T132500
+DTEND:20260918T135500
+SUMMARY:Due: BIO 2450 Lab 1 report (intertidal transects)
+DESCRIPTION:BIO 2450: Lab 1 report (intertidal transects) (lab)\nWeight: 5%
+  of the course grade\nEstimated work: 4 h\nSyllabus says: "Lab 1 report (i
+ ntertidal transects) -- Week 3\, Friday"
+CATEGORIES:BIO 2450,LAB
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:BIO 2450 Lab 1 report (intertidal transects)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:0a7647ff72@termplan
+DTSTAMP:20261028T072553Z
+DTSTART:20260922T100000
+DTEND:20260922T103000
+SUMMARY:Due: HIST 2290 Response paper 1
+DESCRIPTION:HIST 2290: Response paper 1 (paper)\nWeight: 5% of the course g
+ rade\nEstimated work: 3 h\nSyllabus says: "Response papers are due on Canv
+ asboard by 10:00 am on Tuesday\, September 22\;"
+CATEGORIES:HIST 2290,PAPER
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:HIST 2290 Response paper 1
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:45536c342f@termplan
+DTSTAMP:20261028T072553Z
+DTSTART:20260925T235900
+DTEND:20260926T002900
+SUMMARY:Due: STAT 3120 Problem Set 2 (inference for slopes)
+DESCRIPTION:STAT 3120: Problem Set 2 (inference for slopes) (assignment)\nW
+ eight: 4.17% of the course grade\nEstimated work: 5 h\nSyllabus says: "Pro
+ blem Set 2 (inference for slopes) -- due Friday\, September 25"
+CATEGORIES:STAT 3120,ASSIGNMENT
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:STAT 3120 Problem Set 2 (inference for slopes)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:342afb77c7@termplan
+DTSTAMP:20261028T072553Z
+DTSTART:20261001T101000
+DTEND:20261001T121000
+SUMMARY:Exam: STAT 3120 Midterm 1
+DESCRIPTION:STAT 3120: Midterm 1 (exam)\nWeight: 15% of the course grade\nE
+ stimated work: 9 h\nSyllabus says: "Midterm 1 is in class on Thursday\, Oc
+ tober 1"
+CATEGORIES:STAT 3120,EXAM
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P2D
+DESCRIPTION:STAT 3120 Midterm 1
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ce8ac0eb6b@termplan
+DTSTAMP:20261028T072553Z
+DTSTART:20261002T170000
+DTEND:20261002T173000
+SUMMARY:Due: HIST 2290 Essay 1 (single city before 1500)
+DESCRIPTION:HIST 2290: Essay 1 (single city before 1500) (paper)\nWeight: 1
+ 5% of the course grade\nEstimated work: 12 h\nSyllabus says: "Essay 1\, on
+  a single city of your choice before 1500\, is due Friday\, October 2 at 5
+ :00 pm."
+CATEGORIES:HIST 2290,PAPER
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P2D
+DESCRIPTION:HIST 2290 Essay 1 (single city before 1500)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:4fb22238c7@termplan
+DTSTAMP:20261028T072553Z
+DTSTART:20261009T132500
+DTEND:20261009T135500
+SUMMARY:Due: BIO 2450 Lab 2 report (plankton tows and counts)
+DESCRIPTION:BIO 2450: Lab 2 report (plankton tows and counts) (lab)\nWeight
+ : 5% of the course grade\nEstimated work: 4 h\nSyllabus says: "Lab 2 repor
+ t (plankton tows and counts) -- Week 6\, Friday"
+CATEGORIES:BIO 2450,LAB
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:BIO 2450 Lab 2 report (plankton tows and counts)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:bda830ebcf@termplan
+DTSTAMP:20261028T072553Z
+DTSTART:20261009T235900
+DTEND:20261010T002900
+SUMMARY:Due: STAT 3120 Problem Set 3 (multiple regression)
+DESCRIPTION:STAT 3120: Problem Set 3 (multiple regression) (assignment)\nWe
+ ight: 4.17% of the course grade\nEstimated work: 6 h\nSyllabus says: "Prob
+ lem Set 3 (multiple regression) -- due Friday\, October 9"
+CATEGORIES:STAT 3120,ASSIGNMENT
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:STAT 3120 Problem Set 3 (multiple regression)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:b9ff3d9307@termplan
+DTSTAMP:20261028T072553Z
+DTSTART:20261020T100000
+DTEND:20261020T103000
+SUMMARY:Due: HIST 2290 Response paper 2
+DESCRIPTION:HIST 2290: Response paper 2 (paper)\nWeight: 5% of the course g
+ rade\nEstimated work: 3 h\nSyllabus says: "Tuesday\, October 20\;"
+CATEGORIES:HIST 2290,PAPER
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:HIST 2290 Response paper 2
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:8fabddee5f@termplan
+DTSTAMP:20261028T072553Z
+DTSTART:20261023T235900
+DTEND:20261024T002900
+SUMMARY:Due: STAT 3120 Problem Set 4 (diagnostics and residual plots)
+DESCRIPTION:STAT 3120: Problem Set 4 (diagnostics and residual plots) (assi
+ gnment)\nWeight: 4.17% of the course grade\nEstimated work: 6 h\nSyllabus 
+ says: "Problem Set 4 (diagnostics and residual plots) -- due Friday\, Octo
+ ber 23"
+CATEGORIES:STAT 3120,ASSIGNMENT
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:STAT 3120 Problem Set 4 (diagnostics and residual plots)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:68f90ae224@termplan
+DTSTAMP:20261028T072553Z
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261027
+SUMMARY:Read: BIO 2450 Read Chapter 7\, Kelp Forests
+DESCRIPTION:BIO 2450: Read Chapter 7\, Kelp Forests (reading)\nEstimated wo
+ rk: 2 h\nSyllabus says: "Chapter 7\, Kelp Forests: read before Week 9 Mond
+ ay."
+CATEGORIES:BIO 2450,READING
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:0e4b1cb661@termplan
+DTSTAMP:20261028T072553Z
+DTSTART:20261027T145500
+DTEND:20261027T152500
+SUMMARY:Read: HIST 2290 Unit 4 reading: Port Cities of the Indian Ocean
+DESCRIPTION:HIST 2290: Unit 4 reading: Port Cities of the Indian Ocean (rea
+ ding)\nEstimated work: 3 h\nSyllabus says: "Reader pp. 112-140\, for the O
+ ctober 27 discussion"
+CATEGORIES:HIST 2290,READING
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b0f45f39c2@termplan
+DTSTAMP:20261028T072553Z
+DTSTART:20261029T170000
+DTEND:20261029T173000
+SUMMARY:Due: HIST 2290 Essay 2 prospectus
+DESCRIPTION:HIST 2290: Essay 2 prospectus (paper)\nWeight: 5% of the course
+  grade\nEstimated work: 4 h\nSyllabus says: "by Thursday\, October 29 at 5
+ :00 pm"
+CATEGORIES:HIST 2290,PAPER
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:HIST 2290 Essay 2 prospectus
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:98ef69c79e@termplan
+DTSTAMP:20261028T072553Z
+DTSTART:20261030T132500
+DTEND:20261030T135500
+SUMMARY:Due: BIO 2450 Lab 3 report (kelp holdfast communities)
+DESCRIPTION:BIO 2450: Lab 3 report (kelp holdfast communities) (lab)\nWeigh
+ t: 5% of the course grade\nEstimated work: 4 h\nSyllabus says: "Lab 3 repo
+ rt (kelp holdfast communities) -- Week 9\, Friday"
+CATEGORIES:BIO 2450,LAB
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:BIO 2450 Lab 3 report (kelp holdfast communities)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:3e9e532820@termplan
+DTSTAMP:20261028T072553Z
+DTSTART:20261030T235900
+DTEND:20261031T002900
+SUMMARY:Due: STAT 3120 Problem Set 5 (transformations and interactions)
+DESCRIPTION:STAT 3120: Problem Set 5 (transformations and interactions) (as
+ signment)\nWeight: 4.17% of the course grade\nEstimated work: 6 h\nSyllabu
+ s says: "Problem Set 5 (transformations and interactions) -- due Friday\, 
+ October 30"
+CATEGORIES:STAT 3120,ASSIGNMENT
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:STAT 3120 Problem Set 5 (transformations and interactions)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:562595f4db@termplan
+DTSTAMP:20261028T072553Z
+DTSTART:20261102T235900
+DTEND:20261103T002900
+SUMMARY:Due: STAT 3120 Final project proposal
+DESCRIPTION:STAT 3120: Final project proposal (project)\nWeight: 5% of the 
+ course grade\nEstimated work: 3 h\nSyllabus says: "Project proposal (one p
+ age: question\, data source\, planned model) due Monday\, November 2 at 11
+ :59 pm."
+CATEGORIES:STAT 3120,PROJECT
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:STAT 3120 Final project proposal
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:26edd37b7b@termplan
+DTSTAMP:20261028T072553Z
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261103
+SUMMARY:Read: BIO 2450 Read Chapter 9\, Coral Reefs and Bleaching
+DESCRIPTION:BIO 2450: Read Chapter 9\, Coral Reefs and Bleaching (reading)\
+ nEstimated work: 2 h\nSyllabus says: "Chapter 9\, Coral Reefs and Bleachin
+ g: read before Week 10 Monday."
+CATEGORIES:BIO 2450,READING
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:a4a8e78a9f@termplan
+DTSTAMP:20261028T072553Z
+DTSTART:20261103T145500
+DTEND:20261103T152500
+SUMMARY:Due: HIST 2290 Map quiz
+DESCRIPTION:HIST 2290: Map quiz (quiz)\nWeight: 5% of the course grade\nEst
+ imated work: 3 h\nSyllabus says: "The map quiz is in class on Tuesday\, No
+ vember 3"
+CATEGORIES:HIST 2290,QUIZ
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:HIST 2290 Map quiz
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ce2d92a101@termplan
+DTSTAMP:20261028T072553Z
+DTSTART:20261104T132500
+DTEND:20261104T152500
+SUMMARY:Exam: BIO 2450 Midterm exam
+DESCRIPTION:BIO 2450: Midterm exam (exam)\nWeight: 20% of the course grade\
+ nEstimated work: 12 h\nSyllabus says: "The midterm exam is in class on Wee
+ k 10\, Wednesday."
+CATEGORIES:BIO 2450,EXAM
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P2D
+DESCRIPTION:BIO 2450 Midterm exam
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:b31f9eab77@termplan
+DTSTAMP:20261028T072553Z
+DTSTART:20261105T170000
+DTEND:20261105T173000
+SUMMARY:Due: HIST 2290 Essay 2 (comparing two cities)
+DESCRIPTION:HIST 2290: Essay 2 (comparing two cities) (paper)\nWeight: 25% 
+ of the course grade\nEstimated work: 18 h\nSyllabus says: "The full essay 
+ is due Thursday\, November 5 at 5:00 pm."
+CATEGORIES:HIST 2290,PAPER
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P2D
+DESCRIPTION:HIST 2290 Essay 2 (comparing two cities)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:abe260bc57@termplan
+DTSTAMP:20261028T072553Z
+DTSTART:20261105T193000
+DTEND:20261105T213000
+SUMMARY:Exam: STAT 3120 Midterm 2
+DESCRIPTION:STAT 3120: Midterm 2 (exam)\nWeight: 20% of the course grade\nE
+ stimated work: 12 h\nSyllabus says: "Midterm 2 is an evening exam on Thurs
+ day\, November 5\, 7:30-9:00 pm"
+CATEGORIES:STAT 3120,EXAM
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P2D
+DESCRIPTION:STAT 3120 Midterm 2
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:b23a087037@termplan
+DTSTAMP:20261028T072553Z
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261106
+SUMMARY:Read: STAT 3120 Reread Notes chapter 7 (influence and leverage)
+DESCRIPTION:STAT 3120: Reread Notes chapter 7 (influence and leverage) (rea
+ ding)\nEstimated work: 1.5 h\nSyllabus says: "Before Midterm 2\, reread No
+ tes chapter 7 on influence and leverage"
+CATEGORIES:STAT 3120,READING
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:8adbf7b252@termplan
+DTSTAMP:20261028T072553Z
+DTSTART:20261106T170000
+DTEND:20261106T173000
+SUMMARY:Due: BIO 2450 Field study draft
+DESCRIPTION:BIO 2450: Field study draft (project)\nWeight: 5% of the course
+  grade\nEstimated work: 6 h\nSyllabus says: "Field study draft (methods + 
+ preliminary figures): Week 10\, Friday\, by 5 pm."
+CATEGORIES:BIO 2450,PROJECT
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:BIO 2450 Field study draft
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:1217293401@termplan
+DTSTAMP:20261028T072553Z
+DTSTART:20261110T145500
+DTEND:20261110T152500
+SUMMARY:Read: HIST 2290 Unit 5 reading: Capitals and Courts
+DESCRIPTION:HIST 2290: Unit 5 reading: Capitals and Courts (reading)\nEstim
+ ated work: 4 h\nSyllabus says: "Reader pp. 141-188\, for the November 10 d
+ iscussion"
+CATEGORIES:HIST 2290,READING
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f992b632b3@termplan
+DTSTAMP:20261028T072553Z
+DTSTART:20261113T235900
+DTEND:20261114T002900
+SUMMARY:Due: STAT 3120 Problem Set 6 (model selection)
+DESCRIPTION:STAT 3120: Problem Set 6 (model selection) (assignment)\nWeight
+ : 4.17% of the course grade\nEstimated work: 6 h\nSyllabus says: "Problem 
+ Set 6 (model selection) -- due Friday\, November 13"
+CATEGORIES:STAT 3120,ASSIGNMENT
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:STAT 3120 Problem Set 6 (model selection)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:385d9244a7@termplan
+DTSTAMP:20261028T072553Z
+DTSTART:20261117T100000
+DTEND:20261117T103000
+SUMMARY:Due: HIST 2290 Response paper 3
+DESCRIPTION:HIST 2290: Response paper 3 (paper)\nWeight: 5% of the course g
+ rade\nEstimated work: 3 h\nSyllabus says: "Tuesday\, November 17."
+CATEGORIES:HIST 2290,PAPER
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:HIST 2290 Response paper 3
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:43d0ca910a@termplan
+DTSTAMP:20261028T072553Z
+DTSTART:20261120T132500
+DTEND:20261120T135500
+SUMMARY:Due: BIO 2450 Lab 4 report (reef fish surveys from video)
+DESCRIPTION:BIO 2450: Lab 4 report (reef fish surveys from video) (lab)\nWe
+ ight: 5% of the course grade\nEstimated work: 4 h\nSyllabus says: "Lab 4 r
+ eport (reef fish surveys from video) -- Week 12\, Friday"
+CATEGORIES:BIO 2450,LAB
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:BIO 2450 Lab 4 report (reef fish surveys from video)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:8ec1fcde62@termplan
+DTSTAMP:20261028T072553Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:Read: BIO 2450 Read Chapter 12\, Fisheries and Bycatch
+DESCRIPTION:BIO 2450: Read Chapter 12\, Fisheries and Bycatch (reading)\nEs
+ timated work: 2 h\nSyllabus says: "Chapter 12\, Fisheries and Bycatch: rea
+ d before Week 14 Monday."
+CATEGORIES:BIO 2450,READING
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:39d77f2993@termplan
+DTSTAMP:20261028T072553Z
+DTSTART:20261201T145500
+DTEND:20261201T152500
+SUMMARY:Read: HIST 2290 Unit 6 reading: Cities in Crisis
+DESCRIPTION:HIST 2290: Unit 6 reading: Cities in Crisis (reading)\nEstimate
+ d work: 3.5 h\nSyllabus says: "Reader pp. 189-230\, for the December 1 dis
+ cussion"
+CATEGORIES:HIST 2290,READING
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:4d1ec93714@termplan
+DTSTAMP:20261028T072553Z
+DTSTART:20261204T170000
+DTEND:20261204T173000
+SUMMARY:Due: BIO 2450 Final field study report
+DESCRIPTION:BIO 2450: Final field study report (project)\nWeight: 20% of th
+ e course grade\nEstimated work: 16 h\nSyllabus says: "Final field study re
+ port: Week 14\, Friday\, by 5 pm."
+CATEGORIES:BIO 2450,PROJECT
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P2D
+DESCRIPTION:BIO 2450 Final field study report
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:3a7172506a@termplan
+DTSTAMP:20261028T072553Z
+DTSTART:20261204T235900
+DTEND:20261205T002900
+SUMMARY:Due: STAT 3120 Problem Set 7 (logistic regression)
+DESCRIPTION:STAT 3120: Problem Set 7 (logistic regression) (assignment)\nWe
+ ight: 4.17% of the course grade\nEstimated work: 7 h\nSyllabus says: "Prob
+ lem Set 7 (logistic regression) -- due Friday\, December 4"
+CATEGORIES:STAT 3120,ASSIGNMENT
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:STAT 3120 Problem Set 7 (logistic regression)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:f2630d8968@termplan
+DTSTAMP:20261028T072553Z
+DTSTART:20261211T235900
+DTEND:20261212T002900
+SUMMARY:Due: STAT 3120 Final project report
+DESCRIPTION:STAT 3120: Final project report (project)\nWeight: 15% of the c
+ ourse grade\nEstimated work: 20 h\nSyllabus says: "Final project report (8
+ -10 pages with code appendix) due Friday\, December 11 at 11:59 pm."
+CATEGORIES:STAT 3120,PROJECT
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P2D
+DESCRIPTION:STAT 3120 Final project report
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:1d53cc22ee@termplan
+DTSTAMP:20261028T072553Z
+DTSTART:20261214T120000
+DTEND:20261214T140000
+SUMMARY:Exam: HIST 2290 Final take-home exam
+DESCRIPTION:HIST 2290: Final take-home exam (exam)\nWeight: 25% of the cour
+ se grade\nEstimated work: 14 h\nSyllabus says: "Monday\, December 14 at 12
+ :00 pm (noon)"
+CATEGORIES:HIST 2290,EXAM
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P2D
+DESCRIPTION:HIST 2290 Final take-home exam
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:1a859f842f@termplan
+DTSTAMP:20261028T072553Z
+DTSTART:20261216T140000
+DTEND:20261216T160000
+SUMMARY:Exam: STAT 3120 Final exam (cumulative)
+DESCRIPTION:STAT 3120: Final exam (cumulative) (exam)\nWeight: 20% of the c
+ ourse grade\nEstimated work: 15 h\nSyllabus says: "Wednesday\, December 16
+ \, 2:00-4:30 pm"
+CATEGORIES:STAT 3120,EXAM
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P2D
+DESCRIPTION:STAT 3120 Final exam (cumulative)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ee524c50d3@termplan
+DTSTAMP:20261028T072553Z
+DTSTART:20261217T090000
+DTEND:20261217T110000
+SUMMARY:Exam: BIO 2450 Final exam (cumulative)
+DESCRIPTION:BIO 2450: Final exam (cumulative) (exam)\nWeight: 25% of the co
+ urse grade\nEstimated work: 15 h\nSyllabus says: "Thursday\, December 17\,
+  9:00-11:30 am."
+CATEGORIES:BIO 2450,EXAM
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P2D
+DESCRIPTION:BIO 2450 Final exam (cumulative)
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,341 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Termplan</title>
+<meta name="description" content="Paste your syllabi; get every deadline with its source quote, a calendar file and a study plan that gets ahead of crunch weeks.">
+<style>
+:root {
+  --bg: #f6f5f1; --panel: #ffffff; --ink: #1d1f23; --muted: #646a73; --line: #e2e0d9;
+  --accent: #2f5bd3; --accent-ink: #ffffff; --warn: #b4540a; --warn-bg: #fdf1e4;
+  --bad: #b3261e; --bad-bg: #fbe9e7; --ok: #1e7a46; --ok-bg: #e6f4ec; --chip: #eeece6;
+  --c0: #2a78d6; --c1: #eb6834; --c2: #1baf7a; --c3: #eda100; --c4: #e87ba4; --c5: #008300;
+  --radius: 10px; --shadow: 0 1px 2px rgba(0,0,0,.05), 0 2px 8px rgba(0,0,0,.04);
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #15171a; --panel: #1d2024; --ink: #e8e6e1; --muted: #9aa0a8; --line: #2e3238;
+    --accent: #7c9cff; --accent-ink: #0d1020; --warn: #f0a35c; --warn-bg: #3a2a18;
+    --bad: #ff8a80; --bad-bg: #3b1e1c; --ok: #6fd39a; --ok-bg: #173225; --chip: #2a2e34;
+    --c0: #3987e5; --c1: #d95926; --c2: #199e70; --c3: #c98500; --c4: #d55181; --c5: #008300;
+    --shadow: none;
+  }
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink);
+  font: 15px/1.5 ui-sans-serif, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+header { padding: 28px 16px 8px; max-width: 1100px; margin: 0 auto; display: flex; gap: 16px;
+  align-items: baseline; flex-wrap: wrap; justify-content: space-between; }
+h1 { margin: 0; font-size: 28px; letter-spacing: -.02em; }
+h1 span { color: var(--muted); font-weight: 400; font-size: 16px; margin-left: 10px; }
+h2 { font-size: 17px; margin: 0 0 12px; }
+main { max-width: 1100px; margin: 0 auto; padding: 8px 16px 64px; }
+.panel { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius);
+  box-shadow: var(--shadow); padding: 18px; margin-bottom: 16px; }
+.pill { display: inline-flex; gap: 6px; align-items: center; font-size: 13px; padding: 4px 10px;
+  border-radius: 99px; background: var(--chip); color: var(--muted); }
+.pill b { color: var(--ink); font-weight: 600; }
+.dot { width: 8px; height: 8px; border-radius: 50%; background: var(--muted); }
+.dot.ok { background: var(--ok); } .dot.warn { background: var(--warn); } .dot.bad { background: var(--bad); }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; }
+label { display: block; font-size: 13px; color: var(--muted); margin-bottom: 4px; }
+input, textarea, select { width: 100%; font: inherit; color: var(--ink); background: var(--bg);
+  border: 1px solid var(--line); border-radius: 8px; padding: 8px 10px; }
+textarea { min-height: 140px; resize: vertical; font: 13px/1.45 ui-monospace, SFMono-Regular, Menlo, monospace; }
+button { font: inherit; border-radius: 8px; border: 1px solid var(--line); background: var(--panel);
+  color: var(--ink); padding: 8px 14px; cursor: pointer; }
+button:hover { border-color: var(--muted); }
+button.primary { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); font-weight: 600; }
+button:disabled { opacity: .55; cursor: progress; }
+.row { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+.syl { border: 1px solid var(--line); border-radius: 8px; padding: 10px; margin-bottom: 10px; }
+.syl .row input { flex: 1; min-width: 160px; }
+.muted { color: var(--muted); } .small { font-size: 13px; }
+.check { display: flex; gap: 8px; align-items: center; color: var(--ink); font-size: 14px; }
+.check input { width: auto; }
+.stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 10px; margin-bottom: 14px; }
+.stat { background: var(--bg); border-radius: 8px; padding: 10px 12px; }
+.stat .v { font-size: 22px; font-weight: 650; } .stat .k { font-size: 12px; color: var(--muted); }
+.tabs { display: flex; gap: 4px; border-bottom: 1px solid var(--line); margin: 6px 0 14px; overflow-x: auto; }
+.tab { border: 0; border-bottom: 2px solid transparent; border-radius: 0; background: none; padding: 8px 12px;
+  color: var(--muted); white-space: nowrap; }
+.tab.on { color: var(--ink); border-bottom-color: var(--accent); font-weight: 600; }
+table { width: 100%; border-collapse: collapse; font-size: 14px; }
+th { text-align: left; font-weight: 600; color: var(--muted); font-size: 12px; text-transform: uppercase;
+  letter-spacing: .04em; padding: 6px 8px; border-bottom: 1px solid var(--line); }
+td { padding: 8px; border-bottom: 1px solid var(--line); vertical-align: top; }
+tr.item { cursor: pointer; } tr.item:hover td { background: var(--bg); }
+.quote { font-style: italic; color: var(--muted); font-size: 13px; padding: 4px 0 2px; }
+.course { display: inline-flex; align-items: center; gap: 6px; font-size: 12px; font-weight: 600;
+  padding: 1px 8px 1px 6px; border-radius: 99px; background: var(--chip); color: var(--ink); white-space: nowrap; }
+.course i { width: 8px; height: 8px; border-radius: 50%; display: inline-block; }
+.tag { display: inline-block; font-size: 12px; padding: 1px 8px; border-radius: 99px; background: var(--chip); color: var(--muted); }
+.tag.ok { background: var(--ok-bg); color: var(--ok); } .tag.warn { background: var(--warn-bg); color: var(--warn); }
+.tag.bad { background: var(--bad-bg); color: var(--bad); }
+.week { border: 1px solid var(--line); border-radius: 8px; padding: 12px; margin-bottom: 10px; }
+.week.crunch { border-color: var(--bad); }
+.week h3 { margin: 0 0 6px; font-size: 15px; display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+.bar { display: flex; height: 12px; border-radius: 6px; overflow: hidden; background: var(--chip); margin: 8px 0; }
+.bar { gap: 2px; }
+.bar span { display: block; height: 100%; }
+.cap { font-size: 12px; color: var(--muted); }
+.day { display: grid; grid-template-columns: 110px 1fr; gap: 8px; padding: 8px 0; border-bottom: 1px solid var(--line); }
+.day:last-child { border-bottom: 0; }
+.coach { border-left: 4px solid var(--accent); }
+.coach ul { margin: 6px 0 0; padding-left: 20px; }
+.err { background: var(--bad-bg); color: var(--bad); border-radius: 8px; padding: 10px 12px; margin: 10px 0; }
+.attempt { font: 12px/1.5 ui-monospace, SFMono-Regular, Menlo, monospace; background: var(--bg);
+  border-radius: 8px; padding: 8px 10px; margin: 6px 0; white-space: pre-wrap; word-break: break-word; }
+.hidden { display: none; }
+.spinner { width: 14px; height: 14px; border: 2px solid currentColor; border-right-color: transparent;
+  border-radius: 50%; display: inline-block; animation: spin .8s linear infinite; vertical-align: -2px; }
+@keyframes spin { to { transform: rotate(360deg); } }
+@media (max-width: 640px) {
+  .hide-sm { display: none; }
+  .day { grid-template-columns: 1fr; }
+  td, th { padding: 6px 4px; }
+}
+</style>
+</head>
+<body>
+<header>
+  <h1>Termplan<span>every deadline from your syllabi, checked against the source</span></h1>
+  <div id="status" class="pill"><span class="dot"></span>checking model...</div>
+</header>
+<main>
+  <section class="panel" id="input">
+    <h2>1. Your syllabi</h2>
+    <div id="syllabi"></div>
+    <div class="row" style="margin-bottom:14px">
+      <button id="add">Add a syllabus</button>
+      <label class="small" style="margin:0"><input type="file" id="files" accept=".pdf,.txt,.md,text/plain,application/pdf" multiple style="width:auto"></label>
+      <button id="samples">Load 3 sample syllabi</button>
+    </div>
+    <div id="filelist" class="small muted"></div>
+    <h2 style="margin-top:14px">2. Your term</h2>
+    <div class="grid">
+      <div><label for="term_start">First day of classes</label><input type="date" id="term_start"></div>
+      <div><label for="term_end">Last day of finals</label><input type="date" id="term_end"></div>
+      <div><label for="weekly">Study hours per week</label><input type="number" id="weekly" value="25" min="3" max="80"></div>
+      <div><label for="today">Plan from</label><input type="date" id="today"></div>
+    </div>
+    <div class="row" style="margin-top:12px; justify-content: space-between">
+      <label class="check"><input type="checkbox" id="frontload" checked> Get ahead of crunch weeks</label>
+      <button class="primary" id="go">Build my plan</button>
+    </div>
+    <div id="error" class="err hidden"></div>
+  </section>
+
+  <section id="results" class="hidden">
+    <div class="panel coach hidden" id="coach"></div>
+    <div class="panel">
+      <div class="stats" id="stats"></div>
+      <div class="row" style="justify-content: space-between">
+        <div class="tabs" id="tabs" role="tablist"></div>
+        <div class="row">
+          <button id="ics">Download .ics</button>
+          <button id="ics2" title="Adds one all-day event per study day">.ics with study days</button>
+        </div>
+      </div>
+      <div id="view"></div>
+    </div>
+  </section>
+</main>
+<script>
+const $ = (s) => document.querySelector(s);
+const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const fmt = (iso, opts = { weekday: "short", month: "short", day: "numeric" }) =>
+  new Date(iso + "T12:00:00").toLocaleDateString(undefined, opts);
+const state = { result: null, tab: "next7", files: [] };
+const courseColor = {};
+
+function colorFor(course) {
+  if (!(course in courseColor)) courseColor[course] = `var(--c${Object.keys(courseColor).length % 6})`;
+  return courseColor[course];
+}
+function chip(course) { return `<span class="course"><i style="background:${colorFor(course)}"></i>${esc(course)}</span>`; }
+
+function addSyllabus(name = "", text = "") {
+  const div = document.createElement("div");
+  div.className = "syl";
+  div.innerHTML = `<div class="row" style="margin-bottom:6px">
+      <input class="sname" placeholder="Course name (optional)" value="${esc(name)}">
+      <button class="rm" title="Remove">Remove</button></div>
+    <textarea class="stext" placeholder="Paste the full syllabus text here">${esc(text)}</textarea>`;
+  div.querySelector(".rm").onclick = () => div.remove();
+  $("#syllabi").appendChild(div);
+}
+
+async function health() {
+  try {
+    const h = await (await fetch("/api/health")).json();
+    const el = $("#status");
+    if (h.mode === "nebius") el.innerHTML = `<span class="dot ok"></span>Nemotron on Token Factory: <b>${esc(h.model)}</b>`;
+    else if (h.mode === "stub") el.innerHTML = `<span class="dot warn"></span><b>Offline stub</b> (no model calls)`;
+    else el.innerHTML = `<span class="dot bad"></span><b>No API key</b> set on the server`;
+    $("#today").value = h.today;
+  } catch { $("#status").textContent = "server unreachable"; }
+}
+
+$("#add").onclick = () => addSyllabus();
+$("#samples").onclick = async () => {
+  const list = await (await fetch("/api/samples")).json();
+  $("#syllabi").innerHTML = "";
+  list.forEach((s) => addSyllabus(s.name, s.text));
+  $("#term_start").value = "2026-08-31";
+  $("#term_end").value = "2026-12-18";
+};
+$("#files").onchange = (e) => {
+  state.files = Array.from(e.target.files || []);
+  $("#filelist").textContent = state.files.length ? "Will upload: " + state.files.map((f) => f.name).join(", ") : "";
+};
+
+$("#go").onclick = async () => {
+  const texts = Array.from(document.querySelectorAll(".syl")).map((d) => ({
+    name: d.querySelector(".sname").value.trim() || "pasted syllabus",
+    text: d.querySelector(".stext").value,
+  })).filter((t) => t.text.trim());
+  const fd = new FormData();
+  fd.append("texts", JSON.stringify(texts));
+  state.files.forEach((f) => fd.append("files", f));
+  for (const [k, id] of [["term_start", "#term_start"], ["term_end", "#term_end"], ["today", "#today"]])
+    if ($(id).value) fd.append(k, $(id).value);
+  fd.append("weekly_hours", $("#weekly").value || "25");
+  fd.append("front_load", $("#frontload").checked ? "true" : "false");
+  const btn = $("#go");
+  btn.disabled = true;
+  btn.innerHTML = `<span class="spinner"></span> Reading syllabi with Nemotron...`;
+  $("#error").classList.add("hidden");
+  try {
+    const r = await fetch("/api/plan/upload", { method: "POST", body: fd });
+    const body = await r.json();
+    if (!r.ok) throw new Error(typeof body.detail === "string" ? body.detail : JSON.stringify(body.detail));
+    state.result = body;
+    render();
+  } catch (err) {
+    $("#error").textContent = err.message;
+    $("#error").classList.remove("hidden");
+  } finally {
+    btn.disabled = false;
+    btn.textContent = "Build my plan";
+  }
+};
+
+function byId() { return Object.fromEntries(state.result.items.map((i) => [i.id, i])); }
+
+function render() {
+  const r = state.result;
+  $("#results").classList.remove("hidden");
+  r.items.forEach((i) => colorFor(i.course));
+  const verified = r.items.filter((i) => i.verified).length;
+  const risk = r.plan.schedule.filter((s) => s.at_risk).length;
+  const crunch = r.plan.weeks.filter((w) => w.is_crunch).length;
+  $("#stats").innerHTML = [
+    [r.courses.length, "courses"], [r.items.length, "dated items"],
+    [`${verified}/${r.items.length}`, "quotes verified"], [crunch, "crunch weeks ahead"],
+    [risk, "items short on time"], [r.model_calls, `model calls, ${r.elapsed_s}s`],
+  ].map(([v, k]) => `<div class="stat"><div class="v">${esc(v)}</div><div class="k">${esc(k)}</div></div>`).join("");
+  if (r.coach) {
+    $("#coach").innerHTML = `<h2>${esc(r.coach.headline)}</h2><ul>${r.coach.tips.map((t) => `<li>${esc(t)}</li>`).join("")}</ul>`;
+    $("#coach").classList.remove("hidden");
+  } else $("#coach").classList.add("hidden");
+  const tabs = [["next7", "Next 7 days"], ["plan", "Study plan"], ["items", "All deadlines"],
+    ["conflicts", `Conflicts (${r.conflicts.length})`], ["log", "Agent log"]];
+  $("#tabs").innerHTML = tabs.map(([k, l]) => `<button class="tab ${state.tab === k ? "on" : ""}" data-k="${k}">${esc(l)}</button>`).join("");
+  document.querySelectorAll(".tab").forEach((b) => (b.onclick = () => { state.tab = b.dataset.k; render(); }));
+  $("#view").innerHTML = ({ next7, plan: planView, items: itemsView, conflicts: conflictsView, log: logView })[state.tab]();
+  document.querySelectorAll("tr.item").forEach((tr) => (tr.onclick = () => tr.nextElementSibling.classList.toggle("hidden")));
+  $("#results").scrollIntoView({ behavior: "smooth", block: "start" });
+}
+
+function itemRow(i, sched) {
+  const tagV = i.verified ? `<span class="tag ok">quote verified</span>` : `<span class="tag warn">check by hand</span>`;
+  const when = `${fmt(i.due_date)}${i.due_time ? " " + esc(i.due_time) : ""}`;
+  const extra = sched && sched.start_by ? `<div class="small muted">start by ${fmt(sched.start_by)}${sched.at_risk ? ` &middot; <span style="color:var(--bad)">${sched.unscheduled_hours} h short</span>` : ""}</div>` : "";
+  return `<tr class="item"><td style="white-space:nowrap">${when}</td><td>${chip(i.course)}</td>
+    <td><b>${esc(i.title)}</b>${extra}</td><td class="hide-sm"><span class="tag">${esc(i.kind)}</span></td>
+    <td class="hide-sm">${i.weight_percent != null ? esc(+i.weight_percent.toFixed(1)) + "%" : "&ndash;"}</td>
+    <td>${esc(i.est_hours)} h</td><td class="hide-sm">${tagV}</td></tr>
+    <tr class="hidden"><td colspan="7"><div class="quote">"${esc(i.source_quote)}"</div>
+    ${i.hours_rationale ? `<div class="small muted">Hours: ${esc(i.hours_rationale)}</div>` : ""}
+    ${i.warnings.map((w) => `<div class="small" style="color:var(--warn)">${esc(w)}</div>`).join("")}</td></tr>`;
+}
+function itemTable(items) {
+  const sched = Object.fromEntries(state.result.plan.schedule.map((s) => [s.item_id, s]));
+  if (!items.length) return `<p class="muted">Nothing here.</p>`;
+  return `<table><thead><tr><th>Due</th><th>Course</th><th>Item</th><th class="hide-sm">Kind</th>
+    <th class="hide-sm">Weight</th><th>Work</th><th class="hide-sm">Source</th></tr></thead>
+    <tbody>${items.map((i) => itemRow(i, sched[i.id])).join("")}</tbody></table>
+    <p class="small muted">Tap a row to see the exact syllabus sentence it came from.</p>`;
+}
+
+function next7() {
+  const r = state.result, m = byId(), n = r.next7;
+  const due = n.due.map((id) => m[id]);
+  const days = n.study_days.map((d) => `<div class="day"><div><b>${fmt(d.day)}</b><div class="small muted">${d.hours} h</div></div>
+    <div>${d.blocks.map((b) => `<div>${chip(b.course)} ${esc(b.title)} <span class="muted">&middot; ${b.hours} h</span></div>`).join("")}</div></div>`).join("");
+  return `<h2>Due ${fmt(n.from)} to ${fmt(n.to)}</h2>${itemTable(due)}
+    <h2 style="margin-top:18px">Study blocks this week (${n.study_hours} h)</h2>${days || `<p class="muted">No study blocks scheduled.</p>`}`;
+}
+
+function planView() {
+  const r = state.result, m = byId(), cap = r.plan.weekly_hours;
+  return r.plan.weeks.map((w) => {
+    const total = Math.max(cap, w.planned_hours);
+    const segs = w.by_item.map((b) => `<span title="${esc(b.course + " " + b.title + ": " + b.hours + " h")}" style="width:${(100 * b.hours) / total}%;background:${colorFor(b.course)}"></span>`).join("");
+    const due = w.due_item_ids.map((id) => m[id]).map((i) => `<div class="small">${chip(i.course)} ${esc(i.title)} <span class="muted">due ${fmt(i.due_date)}</span></div>`).join("");
+    const work = w.by_item.map((b) => `<span class="small" style="margin-right:12px">${chip(b.course)} ${esc(b.title)} ${b.hours} h</span>`).join("");
+    return `<div class="week ${w.is_crunch ? "crunch" : ""}"><h3>Week of ${fmt(w.week_start, { month: "short", day: "numeric" })}
+      ${w.is_crunch ? `<span class="tag bad">crunch week</span>` : ""}<span class="tag">${w.planned_hours} h planned</span></h3>
+      ${w.is_crunch ? `<div class="small" style="color:var(--bad)">${esc(w.crunch_reasons.join("; "))}</div>` : ""}
+      <div class="bar">${segs}</div><div class="cap">${w.planned_hours} of ${cap} h budget</div>
+      <div style="margin-top:6px">${work || `<span class="small muted">No study blocks.</span>`}</div>
+      ${due ? `<div style="margin-top:8px"><div class="small muted">Due this week</div>${due}</div>` : ""}</div>`;
+  }).join("") || `<p class="muted">No upcoming work.</p>`;
+}
+
+function itemsView() {
+  const r = state.result;
+  const und = r.courses.flatMap((c) => c.undated.map((u) => ({ ...u, course: c.course_code })));
+  return itemTable(r.items) + (und.length ? `<h2 style="margin-top:18px">No date yet</h2>` +
+    und.map((u) => `<div class="small" style="margin:6px 0">${chip(u.course)} <b>${esc(u.title)}</b> <span class="quote">"${esc(u.source_quote)}"</span></div>`).join("") : "");
+}
+
+function conflictsView() {
+  const r = state.result, m = byId();
+  if (!r.conflicts.length) return `<p class="muted">No clashes found.</p>`;
+  const label = { same_day_exams: "Same-day exams", back_to_back_exams: "Back-to-back exams", deadline_pileup: "Deadline pile-up", crunch_week: "Crunch week" };
+  return r.conflicts.map((c) => `<div class="week ${c.severity === "high" ? "crunch" : ""}">
+    <h3><span class="tag ${c.severity === "high" ? "bad" : "warn"}">${esc(label[c.kind])}</span> ${esc(c.message)}</h3>
+    ${c.item_ids.map((id) => m[id]).filter(Boolean).map((i) => `<div class="small">${chip(i.course)} ${esc(i.title)} <span class="muted">${fmt(i.due_date)}</span></div>`).join("")}</div>`).join("");
+}
+
+function logView() {
+  const r = state.result;
+  return `<p class="small muted">Model <b>${esc(r.model)}</b> (${esc(r.mode)}). Each syllabus is read by the model, then every item is checked
+    against the schema, the term calendar and the syllabus text. Failures are sent back for a repair.</p>` +
+    r.courses.map((c) => `<div class="week"><h3>${chip(c.course_code || c.label)} ${esc(c.course_title || c.label)}
+      <span class="tag">${c.items.length} items</span><span class="tag">${c.attempts.length} attempt(s)</span></h3>
+      ${c.error ? `<div class="err">${esc(c.error)}</div>` : ""}
+      ${c.attempts.map((a) => `<div class="attempt">attempt ${a.n} &middot; ${esc(a.mode)} &middot; finish=${esc(a.finish_reason)} &middot; ${a.latency_s}s
+${a.errors.length ? a.errors.map((e) => "  x " + esc(e)).join("\n") : "  passed all checks"}</div>`).join("")}
+      ${c.warnings.map((w) => `<div class="small" style="color:var(--warn)">${esc(w)}</div>`).join("")}</div>`).join("");
+}
+
+async function downloadIcs(study) {
+  const r = state.result;
+  const res = await fetch("/api/ics", { method: "POST", headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ items: r.items, plan: r.plan, include_study_blocks: study }) });
+  const url = URL.createObjectURL(await res.blob());
+  const a = Object.assign(document.createElement("a"), { href: url, download: study ? "termplan-with-study.ics" : "termplan.ics" });
+  document.body.appendChild(a); a.click(); a.remove(); URL.revokeObjectURL(url);
+}
+$("#ics").onclick = () => downloadIcs(false);
+$("#ics2").onclick = () => downloadIcs(true);
+
+addSyllabus();
+health();
+</script>
+</body>
+</html>

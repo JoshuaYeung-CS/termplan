@@ -1,0 +1,131 @@
+{
+  "match": "BIO 2450",
+  "script": [
+    "fenced_trailing_comma",
+    "paraphrase_and_bad_time",
+    "clean"
+  ],
+  "extraction": {
+    "course_code": "BIO 2450",
+    "course_title": "Marine Ecology",
+    "items": [
+      {
+        "title": "Lab 1 report (intertidal transects)",
+        "kind": "lab",
+        "due_date": "2026-09-18",
+        "due_time": "13:25",
+        "weight_percent": 5,
+        "est_hours": 4,
+        "hours_rationale": "Data analysis plus a short write-up.",
+        "source_quote": "Lab 1 report (intertidal transects) -- Week 3, Friday"
+      },
+      {
+        "title": "Lab 2 report (plankton tows and counts)",
+        "kind": "lab",
+        "due_date": "2026-10-09",
+        "due_time": "13:25",
+        "weight_percent": 5,
+        "est_hours": 4,
+        "hours_rationale": "Counting data and a short write-up.",
+        "source_quote": "Lab 2 report (plankton tows and counts) -- Week 6, Friday"
+      },
+      {
+        "title": "Read Chapter 7, Kelp Forests",
+        "kind": "reading",
+        "due_date": "2026-10-26",
+        "due_time": null,
+        "weight_percent": null,
+        "est_hours": 2,
+        "hours_rationale": "One textbook chapter.",
+        "source_quote": "Chapter 7, Kelp Forests: read before Week 9 Monday."
+      },
+      {
+        "title": "Lab 3 report (kelp holdfast communities)",
+        "kind": "lab",
+        "due_date": "2026-10-30",
+        "due_time": "13:25",
+        "weight_percent": 5,
+        "est_hours": 4,
+        "hours_rationale": "Community data from the holdfast lab.",
+        "source_quote": "Lab 3 report (kelp holdfast communities) -- Week 9, Friday"
+      },
+      {
+        "title": "Read Chapter 9, Coral Reefs and Bleaching",
+        "kind": "reading",
+        "due_date": "2026-11-02",
+        "due_time": null,
+        "weight_percent": null,
+        "est_hours": 2,
+        "hours_rationale": "One textbook chapter.",
+        "source_quote": "Chapter 9, Coral Reefs and Bleaching: read before Week 10 Monday."
+      },
+      {
+        "title": "Midterm exam",
+        "kind": "exam",
+        "due_date": "2026-11-04",
+        "due_time": "13:25",
+        "weight_percent": 20,
+        "est_hours": 12,
+        "hours_rationale": "Covers nine weeks including labs.",
+        "source_quote": "The midterm exam is in class on Week 10, Wednesday."
+      },
+      {
+        "title": "Field study draft",
+        "kind": "project",
+        "due_date": "2026-11-06",
+        "due_time": "17:00",
+        "weight_percent": 5,
+        "est_hours": 6,
+        "hours_rationale": "Methods section and first figures with a team of three.",
+        "source_quote": "Field study draft (methods + preliminary figures): Week 10, Friday, by 5 pm."
+      },
+      {
+        "title": "Lab 4 report (reef fish surveys from video)",
+        "kind": "lab",
+        "due_date": "2026-11-20",
+        "due_time": "13:25",
+        "weight_percent": 5,
+        "est_hours": 4,
+        "hours_rationale": "Video survey counts.",
+        "source_quote": "Lab 4 report (reef fish surveys from video) -- Week 12, Friday"
+      },
+      {
+        "title": "Read Chapter 12, Fisheries and Bycatch",
+        "kind": "reading",
+        "due_date": "2026-11-30",
+        "due_time": null,
+        "weight_percent": null,
+        "est_hours": 2,
+        "hours_rationale": "One textbook chapter.",
+        "source_quote": "Chapter 12, Fisheries and Bycatch: read before Week 14 Monday."
+      },
+      {
+        "title": "Final field study report",
+        "kind": "project",
+        "due_date": "2026-12-04",
+        "due_time": "17:00",
+        "weight_percent": 20,
+        "est_hours": 16,
+        "hours_rationale": "Full report worth 20%.",
+        "source_quote": "Final field study report: Week 14, Friday, by 5 pm."
+      },
+      {
+        "title": "Final exam (cumulative)",
+        "kind": "exam",
+        "due_date": "2026-12-17",
+        "due_time": "09:00",
+        "weight_percent": 25,
+        "est_hours": 15,
+        "hours_rationale": "Cumulative final worth 25%.",
+        "source_quote": "Thursday, December 17, 9:00-11:30 am."
+      }
+    ],
+    "undated": [
+      {
+        "title": "Field study poster session",
+        "source_quote": "A field study poster session will be scheduled during Week 15; the exact date is TBA.",
+        "note": "Date to be announced; add it when the course posts it."
+      }
+    ]
+  }
+}

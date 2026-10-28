@@ -1,0 +1,55 @@
+LAKESHORE STATE UNIVERSITY
+Department of Statistical Science
+STAT 3120: Applied Regression Analysis -- Fall 2026
+Lectures: Tuesday/Thursday 10:10-11:25 am, Halvorsen Hall 140
+Labs: Fridays, sections 201-204 (see the course site)
+Course staff: one instructor and three teaching assistants. Office hours are posted on the course site.
+
+1. COURSE DESCRIPTION
+Linear models for real data: simple and multiple regression, inference for coefficients,
+diagnostics, transformations, model selection, logistic regression and an introduction to
+mixed models. Every topic is taught through a data analysis in R.
+
+Prerequisite: STAT 2100 or an equivalent introductory statistics course.
+
+2. TEXTS
+- Course notes (free PDF on the course site), referred to below as "the Notes".
+- Optional: any recent edition of a standard regression textbook.
+
+3. GRADING
+Problem sets (7, lowest dropped)    25%
+Midterm 1                           15%
+Midterm 2                           20%
+Final project (proposal 5%, report 15%) 20%
+Final exam                          20%
+
+4. PROBLEM SETS
+Problem sets are posted on Monday and are due on Gradebox by 11:59 pm on the Friday listed.
+Late work loses 10% per day, up to three days.
+
+Problem Set 1 (simple regression) -- due Friday, September 11
+Problem Set 2 (inference for slopes) -- due Friday, September 25
+Problem Set 3 (multiple regression) -- due Friday, October 9
+Problem Set 4 (diagnostics and residual plots) -- due Friday, October 23
+Problem Set 5 (transformations and interactions) -- due Friday, October 30
+Problem Set 6 (model selection) -- due Friday, November 13
+Problem Set 7 (logistic regression) -- due Friday, December 4
+
+5. EXAMS
+Midterm 1 is in class on Thursday, October 1 and covers Notes chapters 1-4.
+Midterm 2 is an evening exam on Thursday, November 5, 7:30-9:00 pm, in Halvorsen Hall 140.
+It covers Notes chapters 5-8. One handwritten formula sheet is allowed.
+The final exam is cumulative: Wednesday, December 16, 2:00-4:30 pm (room to be announced by the registrar).
+
+6. FINAL PROJECT
+You will analyze a public data set of your choice in a team of two.
+- Project proposal (one page: question, data source, planned model) due Monday, November 2 at 11:59 pm.
+- Final project report (8-10 pages with code appendix) due Friday, December 11 at 11:59 pm.
+
+7. READING
+Read Notes chapters 1-2 before the first lab on September 4.
+Before Midterm 2, reread Notes chapter 7 on influence and leverage; it is the most-missed topic every year.
+
+8. POLICIES
+Collaboration on problem sets is encouraged, but every student writes up their own solutions.
+Accommodations: please send your accommodation letter in the first two weeks of the term.

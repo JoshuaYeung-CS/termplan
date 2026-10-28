@@ -1,0 +1,10 @@
+{
+  "ok": true,
+  "version": "0.1.0",
+  "mode": "nebius",
+  "model": "nvidia/Nemotron-3_5-Lightning",
+  "coach_model": "nvidia/Nemotron-3_5-Lightning",
+  "base_url_host": "stub.local",
+  "key_configured": true,
+  "today": "2026-10-28"
+}

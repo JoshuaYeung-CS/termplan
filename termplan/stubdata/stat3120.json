@@ -1,0 +1,153 @@
+{
+  "match": "STAT 3120",
+  "script": [
+    "clean"
+  ],
+  "extraction": {
+    "course_code": "STAT 3120",
+    "course_title": "Applied Regression Analysis",
+    "items": [
+      {
+        "title": "Read Notes chapters 1-2",
+        "kind": "reading",
+        "due_date": "2026-09-04",
+        "due_time": null,
+        "weight_percent": null,
+        "est_hours": 2,
+        "hours_rationale": "Two short chapters of course notes.",
+        "source_quote": "Read Notes chapters 1-2 before the first lab on September 4."
+      },
+      {
+        "title": "Problem Set 1 (simple regression)",
+        "kind": "assignment",
+        "due_date": "2026-09-11",
+        "due_time": "23:59",
+        "weight_percent": 4.17,
+        "est_hours": 5,
+        "hours_rationale": "Early sets are shorter R exercises.",
+        "source_quote": "Problem Set 1 (simple regression) -- due Friday, September 11"
+      },
+      {
+        "title": "Problem Set 2 (inference for slopes)",
+        "kind": "assignment",
+        "due_date": "2026-09-25",
+        "due_time": "23:59",
+        "weight_percent": 4.17,
+        "est_hours": 5,
+        "hours_rationale": "Standard weekly set.",
+        "source_quote": "Problem Set 2 (inference for slopes) -- due Friday, September 25"
+      },
+      {
+        "title": "Midterm 1",
+        "kind": "exam",
+        "due_date": "2026-10-01",
+        "due_time": "10:10",
+        "weight_percent": 15,
+        "est_hours": 9,
+        "hours_rationale": "Covers four chapters; about two evenings of review plus practice exams.",
+        "source_quote": "Midterm 1 is in class on Thursday, October 1"
+      },
+      {
+        "title": "Problem Set 3 (multiple regression)",
+        "kind": "assignment",
+        "due_date": "2026-10-09",
+        "due_time": "23:59",
+        "weight_percent": 4.17,
+        "est_hours": 6,
+        "hours_rationale": "Multiple regression sets take longer in R.",
+        "source_quote": "Problem Set 3 (multiple regression) -- due Friday, October 9"
+      },
+      {
+        "title": "Problem Set 4 (diagnostics and residual plots)",
+        "kind": "assignment",
+        "due_date": "2026-10-23",
+        "due_time": "23:59",
+        "weight_percent": 4.17,
+        "est_hours": 6,
+        "hours_rationale": "Diagnostics need many plots.",
+        "source_quote": "Problem Set 4 (diagnostics and residual plots) -- due Friday, October 23"
+      },
+      {
+        "title": "Problem Set 5 (transformations and interactions)",
+        "kind": "assignment",
+        "due_date": "2026-10-30",
+        "due_time": "23:59",
+        "weight_percent": 4.17,
+        "est_hours": 6,
+        "hours_rationale": "Interaction terms are a common stumbling block.",
+        "source_quote": "Problem Set 5 (transformations and interactions) -- due Friday, October 30"
+      },
+      {
+        "title": "Final project proposal",
+        "kind": "project",
+        "due_date": "2026-11-02",
+        "due_time": "23:59",
+        "weight_percent": 5,
+        "est_hours": 3,
+        "hours_rationale": "One page, but finding a usable data set takes time.",
+        "source_quote": "Project proposal (one page: question, data source, planned model) due Monday, November 2 at 11:59 pm."
+      },
+      {
+        "title": "Midterm 2",
+        "kind": "exam",
+        "due_date": "2026-11-05",
+        "due_time": "19:30",
+        "weight_percent": 20,
+        "est_hours": 12,
+        "hours_rationale": "Four chapters including influence and leverage; worth 20%.",
+        "source_quote": "Midterm 2 is an evening exam on Thursday, November 5, 7:30-9:00 pm"
+      },
+      {
+        "title": "Reread Notes chapter 7 (influence and leverage)",
+        "kind": "reading",
+        "due_date": "2026-11-05",
+        "due_time": null,
+        "weight_percent": null,
+        "est_hours": 1.5,
+        "hours_rationale": "One chapter reread before the exam.",
+        "source_quote": "Before Midterm 2, reread Notes chapter 7 on influence and leverage"
+      },
+      {
+        "title": "Problem Set 6 (model selection)",
+        "kind": "assignment",
+        "due_date": "2026-11-13",
+        "due_time": "23:59",
+        "weight_percent": 4.17,
+        "est_hours": 6,
+        "hours_rationale": "Model selection requires comparing several fits.",
+        "source_quote": "Problem Set 6 (model selection) -- due Friday, November 13"
+      },
+      {
+        "title": "Problem Set 7 (logistic regression)",
+        "kind": "assignment",
+        "due_date": "2026-12-04",
+        "due_time": "23:59",
+        "weight_percent": 4.17,
+        "est_hours": 7,
+        "hours_rationale": "New model family.",
+        "source_quote": "Problem Set 7 (logistic regression) -- due Friday, December 4"
+      },
+      {
+        "title": "Final project report",
+        "kind": "project",
+        "due_date": "2026-12-11",
+        "due_time": "23:59",
+        "weight_percent": 15,
+        "est_hours": 20,
+        "hours_rationale": "8-10 pages of analysis and code with a partner.",
+        "source_quote": "Final project report (8-10 pages with code appendix) due Friday, December 11 at 11:59 pm."
+      },
+      {
+        "title": "Final exam (cumulative)",
+        "kind": "exam",
+        "due_date": "2026-12-16",
+        "due_time": "14:00",
+        "weight_percent": 20,
+        "est_hours": 15,
+        "hours_rationale": "Cumulative exam worth 20%.",
+        "source_quote": "Wednesday, December 16, 2:00-4:30 pm"
+      }
+    ],
+    "undated": []
+  }
+}

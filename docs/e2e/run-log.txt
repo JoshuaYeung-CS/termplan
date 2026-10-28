@@ -1,0 +1,12 @@
+TestClient fallback: binding a local port was not allowed
+POST /api/plan/upload -> 200 in 0.17s
+mode=nebius model=nvidia/Nemotron-3_5-Lightning base_url_host=stub.local
+courses=3 items=36 verified=36 conflicts=8 model_calls=6
+  BIO 2450: 11 items, 3 attempt(s)
+    attempt 1 (json_schema): The reply is not valid JSON (Expecting property name enclosed in double quotes at line 123, column 1). Check for trailing commas, unquoted keys or comments.
+    attempt 2 (json_schema): items[6].due_time: Value error, due_time must be 24-hour HH:MM (for example 17:00) or null; items[3] (Lab 3 report (kelp holdfast communities)): source_quote is not a verbatim excerpt of the syllabus: 'Lab three report is due on the Friday of week nine'
+    attempt 3 (json_schema): passed
+  HIST 2290: 11 items, 1 attempt(s)
+    attempt 1 (json_schema): passed
+  STAT 3120: 14 items, 1 attempt(s)
+    attempt 1 (json_schema): passed
